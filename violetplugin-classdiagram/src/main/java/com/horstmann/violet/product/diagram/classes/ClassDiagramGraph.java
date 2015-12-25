@@ -14,6 +14,7 @@ import com.horstmann.violet.product.diagram.classes.edges.CompositionEdge;
 import com.horstmann.violet.product.diagram.classes.edges.DependencyEdge;
 import com.horstmann.violet.product.diagram.classes.edges.InheritanceEdge;
 import com.horstmann.violet.product.diagram.classes.edges.InterfaceInheritanceEdge;
+import com.horstmann.violet.product.diagram.classes.edges.XLineEdge;
 import com.horstmann.violet.product.diagram.classes.nodes.ClassNode;
 import com.horstmann.violet.product.diagram.classes.nodes.InterfaceNode;
 import com.horstmann.violet.product.diagram.classes.nodes.PackageNode;
@@ -92,6 +93,10 @@ public class ClassDiagramGraph extends AbstractGraph
         NoteEdge noteEdge = new NoteEdge();
         noteEdge.setToolTip(rs.getString("edge6.tooltip"));
         EDGE_PROTOTYPES.add(noteEdge);
+        
+        XLineEdge xEdge = new XLineEdge();
+        xEdge.setToolTip(rs.getString("edge7.tooltip"));
+        EDGE_PROTOTYPES.add(xEdge);
     }
 
 }

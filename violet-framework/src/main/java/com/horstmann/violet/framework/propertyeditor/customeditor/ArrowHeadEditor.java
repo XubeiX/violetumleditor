@@ -45,7 +45,8 @@ public class ArrowHeadEditor extends CustomPropertyEditorSupport
             "Triangle",
             "V",
             "Diamond",
-            "Black Diamond"
+            "Black Diamond",
+            "X"
     };
 
     /** Arrows technical values */
@@ -55,6 +56,7 @@ public class ArrowHeadEditor extends CustomPropertyEditorSupport
             ArrowHead.TRIANGLE,
             ArrowHead.V,
             ArrowHead.DIAMOND,
-            ArrowHead.BLACK_DIAMOND
+            ArrowHead.BLACK_DIAMOND,
+            ArrowHead.X_HEAD
     };
 }

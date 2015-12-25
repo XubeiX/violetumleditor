@@ -23,6 +23,7 @@ package com.horstmann.violet.framework.propertyeditor;
 
 import java.awt.Component;
 import java.awt.Font;
+import java.awt.Graphics;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.beans.BeanInfo;
@@ -46,14 +47,18 @@ import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import java.util.Set;
 
+import javax.swing.Icon;
 import javax.swing.ImageIcon;
+import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+import javax.swing.plaf.basic.BasicBorders.RadioButtonBorder;
 
 import com.horstmann.violet.framework.injection.resources.ResourceBundleConstant;
 import com.horstmann.violet.framework.propertyeditor.customeditor.AbstractDiagramLinkEditor;
@@ -106,7 +111,10 @@ public class CustomPropertyEditor implements ICustomPropertyEditor
             });
 
             panel.setLayout(new CustomPropertyEditorLayout());
-
+            
+         
+            
+            
             ResourceBundle rs = ResourceBundle.getBundle(ResourceBundleConstant.NODE_AND_EDGE_STRINGS, Locale.getDefault());
             for (int i = 0; i < descriptors.length; i++)
             {
@@ -129,6 +137,8 @@ public class CustomPropertyEditor implements ICustomPropertyEditor
                     title = title.substring(0, Math.min(1, title.length())).toUpperCase()
                             + title.substring(Math.min(1, title.length()), title.length());
 
+                 
+                   
                     JLabel label = new JLabel(title);
                     label.setFont(label.getFont().deriveFont(Font.PLAIN));
                     panel.add(label);
@@ -252,7 +262,7 @@ public class CustomPropertyEditor implements ICustomPropertyEditor
         {
             return editor.getCustomEditor();
             /*
-             * // Make a button that pops up the custom editor final JButton button = new JButton(); // if the editor is paintable,
+             *  Make a button that pops up the custom editor final JButton button = new JButton(); // if the editor is paintable,
              * have it paint an icon if (editor.isPaintable()) { button.setIcon(new Icon() { public int getIconWidth() { return
              * WIDTH - 8; } public int getIconHeight() { return HEIGHT - 8; }
              * 
@@ -267,7 +277,13 @@ public class CustomPropertyEditor implements ICustomPropertyEditor
              * dialog never works.
              * 
              * if (editor.isPaintable()) button.repaint(); else button.setText(buttonText(editor.getAsText())); } }); return button;
+             * 
+             * 
              */
+            
+           
+           
+            	
         }
         else if (tags != null)
         {
