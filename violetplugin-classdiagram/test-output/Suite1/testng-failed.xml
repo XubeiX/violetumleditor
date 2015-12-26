@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="ClassDiagramGraph(failed)">
+    <classes>
+      <class name="ratajczak.test.XLineEdgeBeanInfoTest">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- ratajczak.test.XLineEdgeBeanInfoTest -->
+      <class name="ratajczak.test.ClassDiagramGraphTest">
+        <methods>
+          <include name="ShoulbeClassInEdgeList" invocation-numbers="2"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- ratajczak.test.ClassDiagramGraphTest -->
+      <class name="ratajczak.test.XLineEdgeTest">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- ratajczak.test.XLineEdgeTest -->
+    </classes>
+  </test> <!-- ClassDiagramGraph(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

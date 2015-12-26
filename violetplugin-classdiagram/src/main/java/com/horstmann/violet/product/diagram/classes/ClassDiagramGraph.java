@@ -8,12 +8,16 @@ import java.util.ResourceBundle;
 import com.horstmann.violet.product.diagram.abstracts.AbstractGraph;
 import com.horstmann.violet.product.diagram.abstracts.edge.IEdge;
 import com.horstmann.violet.product.diagram.abstracts.node.INode;
+import com.horstmann.violet.product.diagram.abstracts.property.ArrowHead;
+import com.horstmann.violet.product.diagram.abstracts.property.BentStyle;
+import com.horstmann.violet.product.diagram.abstracts.property.LineStyle;
 import com.horstmann.violet.product.diagram.classes.edges.AggregationEdge;
 import com.horstmann.violet.product.diagram.classes.edges.AssociationEdge;
 import com.horstmann.violet.product.diagram.classes.edges.CompositionEdge;
 import com.horstmann.violet.product.diagram.classes.edges.DependencyEdge;
 import com.horstmann.violet.product.diagram.classes.edges.InheritanceEdge;
 import com.horstmann.violet.product.diagram.classes.edges.InterfaceInheritanceEdge;
+import com.horstmann.violet.product.diagram.classes.edges.RelationShipEdge;
 import com.horstmann.violet.product.diagram.classes.edges.XLineEdge;
 import com.horstmann.violet.product.diagram.classes.nodes.ClassNode;
 import com.horstmann.violet.product.diagram.classes.nodes.InterfaceNode;
@@ -97,6 +101,22 @@ public class ClassDiagramGraph extends AbstractGraph
         XLineEdge xEdge = new XLineEdge();
         xEdge.setToolTip(rs.getString("edge7.tooltip"));
         EDGE_PROTOTYPES.add(xEdge);
+        
+        RelationShipEdge useEdge = new RelationShipEdge();
+        useEdge.setEndArrowHead(ArrowHead.V);
+        useEdge.setBentStyle(BentStyle.STRAIGHT);
+        useEdge.setLineStyle(LineStyle.DOTTED);
+        useEdge.setMiddleLabel("\u00ABuse\u00BB");
+        useEdge.setToolTip(rs.getString("edge8.tooltip"));
+        EDGE_PROTOTYPES.add(useEdge);
+        
+        RelationShipEdge createEdge = new RelationShipEdge();
+        createEdge.setEndArrowHead(ArrowHead.V);
+        createEdge.setBentStyle(BentStyle.STRAIGHT);
+        createEdge.setLineStyle(LineStyle.DOTTED);
+        createEdge.setMiddleLabel("\u00ABcreate\u00BB");
+        createEdge.setToolTip(rs.getString("edge9.tooltip"));
+        EDGE_PROTOTYPES.add(createEdge);
     }
 
 }

@@ -5,7 +5,7 @@
     <classes>
       <class name="ratajczak.test.ClassDiagramGraphTest">
         <methods>
-          <include name="ShoulbeClassInEdgeList" invocation-numbers="2 4"/>
+          <include name="ShoulbeClassInEdgeList"/>
           <include name="init"/>
         </methods>
       </class> <!-- ratajczak.test.ClassDiagramGraphTest -->

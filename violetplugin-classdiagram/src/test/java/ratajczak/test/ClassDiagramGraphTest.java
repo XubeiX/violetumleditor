@@ -4,7 +4,6 @@ import java.util.Collection;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.horstmann.violet.product.diagram.abstracts.edge.IEdge;
@@ -18,18 +17,9 @@ public class ClassDiagramGraphTest {
 		graph = new ClassDiagramGraph();
 	}
 	
-	@DataProvider(name="ProtptypeTest")
-	public Object[][] test(){
-		return new Object[][]{
-			{"Linia pozioma",false},
-			{"Class Diagram",false},
-			{"X Line",true},
-			{"Artur", false},
-			{"Note connector",true},
-		};
-	}
 	
-	@Test(dataProvider="ProtptypeTest")
+	
+	@Test(dataProvider="ProtptypeTest", dataProviderClass = DataProviders.class)
 	public void ShoulbeClassInEdgeList(String equals, boolean expected){
 		Collection<IEdge> lista = graph.getEdgePrototypes();
 		boolean value = false;

@@ -16,11 +16,7 @@ public class XLineEdge extends SegmentedLineEdge{
 		return false;
 	}
 	
-	@Override
-    public ArrowHead getEndArrowHead()
-    {
-        return ArrowHead.X_HEAD;
-    }
+
 	
 	public LineStyle getLineStyle()
     {
@@ -29,8 +25,14 @@ public class XLineEdge extends SegmentedLineEdge{
 	
 	@Override
 	public void setStartArrowHead(ArrowHead newValue) {
-		if(newValue == ArrowHead.X_HEAD)
+		if(newValue == ArrowHead.X_HEAD || newValue==ArrowHead.V)
 			super.setStartArrowHead(newValue);
+	}
+	
+	@Override
+	public void setEndArrowHead(ArrowHead newValue) {
+		if(newValue == ArrowHead.X_HEAD || newValue==ArrowHead.V)
+			super.setEndArrowHead(newValue);
 	}
 	
 	 @Override
