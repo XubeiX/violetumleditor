@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>violetplugin-classdiagram</artifactId>
-    <name>Violet UML Editor Class Diagram Plugin</name>
+    <artifactId>violetplugin-communicationdiagram</artifactId>
+    <name>Violet UML Editor Communication Diagram Plugin</name>
     <version>${applicationVersion}</version>
     <packaging>jar</packaging>
     <parent>
@@ -20,5 +20,5 @@
             <version>${applicationVersion}</version>
         </dependency>
     </dependencies>
-    
+    <groupId>ratajczak.violet</groupId>
 </project>
