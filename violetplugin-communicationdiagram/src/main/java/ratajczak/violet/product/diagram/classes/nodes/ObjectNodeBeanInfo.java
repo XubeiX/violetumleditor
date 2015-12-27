@@ -11,9 +11,7 @@ public class ObjectNodeBeanInfo extends SimpleBeanInfo {
 	        {
 	            PropertyDescriptor nameDescriptor = new PropertyDescriptor("name", ObjectNode.class);
 	            nameDescriptor.setValue("priority", new Integer(1));
-	            
-	          
-	            
+	               
 	            return new PropertyDescriptor[]
 	            {
 	                    nameDescriptor,  

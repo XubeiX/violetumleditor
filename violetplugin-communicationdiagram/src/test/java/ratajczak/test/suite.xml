@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1">
+
+	<test name="Communication Diagram Graph">
+		<classes>
+			<class name="ratajczak.test.DiagramGraphTest" />
+		</classes>
+	</test>
+
+	<test name="Communication Diagram Plugin">
+		<classes>
+			<class name="ratajczak.test.DiagramPluginTest" />
+		</classes>
+	</test>
+
+<test name="Message Arrow Test">
+		<classes>
+			<class name="ratajczak.test.DirectionEdgeTest" />
+		</classes>
+	</test>
+	
+	<test name="Object test ">
+		<classes>
+			<class name="ratajczak.test.ObjectNodeTest" />
+		</classes>
+	</test>
+
+
+
+</suite>  

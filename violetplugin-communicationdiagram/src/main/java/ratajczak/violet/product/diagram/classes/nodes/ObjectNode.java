@@ -112,20 +112,6 @@ public class ObjectNode extends RectangularNode{
 	        g2.setColor(oldColor);
 	    }
 
-	    /*
-	     * (non-Javadoc)
-	     * 
-	     * @see com.horstmann.violet.framework.Node#addNode(com.horstmann.violet.framework.Node, java.awt.geom.Point2D)
-	     */
-	    public boolean addChild(INode n, Point2D p)
-	    {
-	        // TODO : where is it added?
-	        if (n instanceof PointNode)
-	        {
-	            return true;
-	        }
-	        return false;
-	    }
 
 	    /**
 	     * Sets the name property value.

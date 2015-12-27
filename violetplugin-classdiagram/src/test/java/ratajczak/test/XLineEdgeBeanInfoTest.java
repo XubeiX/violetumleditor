@@ -37,4 +37,6 @@ public class XLineEdgeBeanInfoTest {
 		
 	}catch(IntrospectionException exception){}
 }
+	
+	
 }
