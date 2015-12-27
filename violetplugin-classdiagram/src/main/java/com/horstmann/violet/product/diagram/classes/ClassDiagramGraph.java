@@ -11,6 +11,7 @@ import com.horstmann.violet.product.diagram.abstracts.node.INode;
 import com.horstmann.violet.product.diagram.abstracts.property.ArrowHead;
 import com.horstmann.violet.product.diagram.abstracts.property.BentStyle;
 import com.horstmann.violet.product.diagram.abstracts.property.LineStyle;
+import com.horstmann.violet.product.diagram.abstracts.property.Morph;
 import com.horstmann.violet.product.diagram.classes.edges.AggregationEdge;
 import com.horstmann.violet.product.diagram.classes.edges.AssociationEdge;
 import com.horstmann.violet.product.diagram.classes.edges.CompositionEdge;
@@ -22,7 +23,6 @@ import com.horstmann.violet.product.diagram.classes.edges.XLineEdge;
 import com.horstmann.violet.product.diagram.classes.nodes.ClassNode;
 import com.horstmann.violet.product.diagram.classes.nodes.InterfaceNode;
 import com.horstmann.violet.product.diagram.classes.nodes.PackageNode;
-import com.horstmann.violet.product.diagram.common.ImageNode;
 import com.horstmann.violet.product.diagram.common.NoteEdge;
 import com.horstmann.violet.product.diagram.common.NoteNode;
 
@@ -32,6 +32,10 @@ import com.horstmann.violet.product.diagram.common.NoteNode;
 public class ClassDiagramGraph extends AbstractGraph
 {
 
+	public ClassDiagramGraph(){
+		Morph.setGraph(this);
+	}
+	
     public List<INode> getNodePrototypes()
     {
         return NODE_PROTOTYPES;
@@ -117,6 +121,8 @@ public class ClassDiagramGraph extends AbstractGraph
         createEdge.setMiddleLabel("\u00ABcreate\u00BB");
         createEdge.setToolTip(rs.getString("edge9.tooltip"));
         EDGE_PROTOTYPES.add(createEdge);
+        
+       
     }
 
 }

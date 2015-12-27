@@ -1,4 +1,4 @@
-package com.horstmann.violet.product.diagram.classes.nodes;
+package com.horstmann.violet.product.diagram.abstracts.property.morphClass;
 
 import java.beans.IntrospectionException;
 import java.beans.PropertyDescriptor;
@@ -7,7 +7,7 @@ import java.beans.SimpleBeanInfo;
 /**
  * The bean info for the InterfaceNode type.
  */
-public class InterfaceNodeBeanInfo extends SimpleBeanInfo
+public class InterfaceNodeMorphBeanInfo extends SimpleBeanInfo
 {
 
     @Override
@@ -15,11 +15,11 @@ public class InterfaceNodeBeanInfo extends SimpleBeanInfo
     {
         try
         {
-            PropertyDescriptor nameDescriptor = new PropertyDescriptor("name", InterfaceNode.class);
+            PropertyDescriptor nameDescriptor = new PropertyDescriptor("name", InterfaceNodeMorph.class);
             nameDescriptor.setValue("priority", new Integer(2));
-            PropertyDescriptor methodsDescriptor = new PropertyDescriptor("methods", InterfaceNode.class);
+            PropertyDescriptor methodsDescriptor = new PropertyDescriptor("methods", InterfaceNodeMorph.class);
             methodsDescriptor.setValue("priority", new Integer(3));
-            PropertyDescriptor morphDescriptor = new PropertyDescriptor("morph", InterfaceNode.class);
+            PropertyDescriptor morphDescriptor = new PropertyDescriptor("morph", InterfaceNodeMorph.class);
             morphDescriptor.setValue("priority", new Integer(1));
             return new PropertyDescriptor[]
             {

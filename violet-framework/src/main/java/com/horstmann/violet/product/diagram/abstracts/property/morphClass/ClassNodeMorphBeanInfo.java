@@ -1,4 +1,4 @@
-package com.horstmann.violet.product.diagram.classes.nodes;
+package com.horstmann.violet.product.diagram.abstracts.property.morphClass;
 
 
 import java.beans.IntrospectionException;
@@ -8,7 +8,7 @@ import java.beans.SimpleBeanInfo;
 /**
  * The bean info for the ClassNode type.
  */
-public class ClassNodeBeanInfo extends SimpleBeanInfo
+public class ClassNodeMorphBeanInfo extends SimpleBeanInfo
 {
     /*
      * (non-Javadoc)
@@ -19,13 +19,13 @@ public class ClassNodeBeanInfo extends SimpleBeanInfo
     {
         try
         {
-            PropertyDescriptor nameDescriptor = new PropertyDescriptor("name", ClassNode.class);
+            PropertyDescriptor nameDescriptor = new PropertyDescriptor("name", ClassNodeMorph.class);
             nameDescriptor.setValue("priority", new Integer(2));
-            PropertyDescriptor attributesDescriptor = new PropertyDescriptor("attributes", ClassNode.class);
+            PropertyDescriptor attributesDescriptor = new PropertyDescriptor("attributes", ClassNodeMorph.class);
             attributesDescriptor.setValue("priority", new Integer(3));
-            PropertyDescriptor methodsDescriptor = new PropertyDescriptor("methods", ClassNode.class);
+            PropertyDescriptor methodsDescriptor = new PropertyDescriptor("methods", ClassNodeMorph.class);
             methodsDescriptor.setValue("priority", new Integer(4));
-            PropertyDescriptor morphDescriptor = new PropertyDescriptor("morph", ClassNode.class);
+            PropertyDescriptor morphDescriptor = new PropertyDescriptor("morph", ClassNodeMorph.class);
             morphDescriptor.setValue("priority", new Integer(1));
             return new PropertyDescriptor[]
             {

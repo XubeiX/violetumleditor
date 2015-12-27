@@ -68,6 +68,7 @@ import com.horstmann.violet.framework.propertyeditor.customeditor.ChoiceListEdit
 import com.horstmann.violet.framework.propertyeditor.customeditor.ColorEditor;
 import com.horstmann.violet.framework.propertyeditor.customeditor.ImageIconEditor;
 import com.horstmann.violet.framework.propertyeditor.customeditor.LineStyleEditor;
+import com.horstmann.violet.framework.propertyeditor.customeditor.MorphEditor;
 import com.horstmann.violet.framework.propertyeditor.customeditor.MultiLineStringEditor;
 import com.horstmann.violet.framework.propertyeditor.customeditor.StringEditor;
 import com.horstmann.violet.framework.util.SerializableEnumeration;
@@ -75,6 +76,7 @@ import com.horstmann.violet.product.diagram.abstracts.property.ArrowHead;
 import com.horstmann.violet.product.diagram.abstracts.property.BentStyle;
 import com.horstmann.violet.product.diagram.abstracts.property.ChoiceList;
 import com.horstmann.violet.product.diagram.abstracts.property.LineStyle;
+import com.horstmann.violet.product.diagram.abstracts.property.Morph;
 import com.horstmann.violet.product.diagram.abstracts.property.MultiLineString;
 import com.horstmann.violet.product.diagram.common.DiagramLink;
 
@@ -418,6 +420,7 @@ public class CustomPropertyEditor implements ICustomPropertyEditor
         editors.put(MultiLineString.class, MultiLineStringEditor.class);
         editors.put(String.class, StringEditor.class);
         editors.put(ImageIcon.class, ImageIconEditor.class);
+        editors.put(Morph.class, MorphEditor.class);
     }
 
     private static Set<Class<?>> knownImmutables = new HashSet<Class<?>>();
