@@ -14,19 +14,21 @@ public class MorphEditor extends CustomPropertyEditorSupport{
 	        super(NAMES, VALUES);
 	    }
 
-	    /** Arrows labels */
+	    /** Morph labels */
 	    public static final String[] NAMES =
 	    {
 	            "to Class",
 	            "to Interface",
+	            "to Abstract Class"
 	         
 	    };
 
-	    /** Arrows technical values */
+	    /** Morph technical values */
 	    public static final Object[] VALUES =
 	    {
 	            Morph.TOCLASS,
 	            Morph.TOINTERFACE,
+	            Morph.ABSTRACT,
 	           
 	    };
 	

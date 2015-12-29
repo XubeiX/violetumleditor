@@ -10,6 +10,7 @@ import com.horstmann.violet.product.diagram.abstracts.edge.IEdge;
 import com.horstmann.violet.product.diagram.abstracts.node.INode;
 
 import ratajczak.violet.product.diagram.classes.edges.DirectionEdge;
+import ratajczak.violet.product.diagram.classes.nodes.ActorNode;
 import ratajczak.violet.product.diagram.classes.nodes.ObjectNode;
 
 public class CommunicationDiagramGraph extends AbstractGraph {
@@ -33,6 +34,10 @@ public class CommunicationDiagramGraph extends AbstractGraph {
 		 	ObjectNode node0 = new ObjectNode();
 	        node0.setToolTip(rs.getString("node0.tooltip"));
 	        NODE_PROTOTYPES.add(node0);
+	        
+	        ActorNode node1 = new ActorNode();
+	        node1.setToolTip(rs.getString("node1.tooltip"));
+	        NODE_PROTOTYPES.add(node1);
 	        
 	        DirectionEdge edge0 = new DirectionEdge();
 	        edge0.setToolTip(rs.getString("edge0.tooltip"));

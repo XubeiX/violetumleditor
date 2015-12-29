@@ -1,0 +1,354 @@
+<html>
+<head>
+<title>TestNG:  MorphClass</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MorphClass</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>55/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 29 15:21:15 CET 2015</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (328 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToClass()'><b>abstractToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@1f7030a6</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToClass()'><b>abstractToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@15d0c81b</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToClass()'><b>abstractToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@646d64ab</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToClass()'><b>abstractToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@4232c52b</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToClass()'><b>abstractToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@2bbf4b8b</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToClass()'><b>abstractToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@2f943d71</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToClass()'><b>abstractToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@467aecef</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToClass()'><b>abstractToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@42f93a98</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToClass()'><b>abstractToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@1d8d30f7</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToINterface()'><b>abstractToINterface</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@23d2a7e8</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToINterface()'><b>abstractToINterface</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@6043cd28</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToINterface()'><b>abstractToINterface</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@44c8afef</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToINterface()'><b>abstractToINterface</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@77ec78b9</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToINterface()'><b>abstractToINterface</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@4eb7f003</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToINterface()'><b>abstractToINterface</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@462d5aee</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToINterface()'><b>abstractToINterface</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@52f759d7</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToINterface()'><b>abstractToINterface</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@cb0ed20</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.abstractToINterface()'><b>abstractToINterface</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@7403c468</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToAbstract()'><b>classToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@2de8284b</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToAbstract()'><b>classToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@25bbf683</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToAbstract()'><b>classToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@43a0cee9</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToAbstract()'><b>classToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@954b04f</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToAbstract()'><b>classToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@4c762604</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToAbstract()'><b>classToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@5c18298f</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToAbstract()'><b>classToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@5fdba6f9</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToAbstract()'><b>classToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@35a50a4c</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToAbstract()'><b>classToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@44a3ec6b</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToInterfaceTest()'><b>classToInterfaceTest</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@1068e947</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToInterfaceTest()'><b>classToInterfaceTest</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@543e710e</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToInterfaceTest()'><b>classToInterfaceTest</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@1d7acb34</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToInterfaceTest()'><b>classToInterfaceTest</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@5e955596</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToInterfaceTest()'><b>classToInterfaceTest</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@76b10754</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToInterfaceTest()'><b>classToInterfaceTest</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@130f889</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToInterfaceTest()'><b>classToInterfaceTest</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@46238e3f</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToInterfaceTest()'><b>classToInterfaceTest</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@679b62af</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.classToInterfaceTest()'><b>classToInterfaceTest</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@2bbaf4f0</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToAbstract()'><b>interfaceToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@71a794e5</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToAbstract()'><b>interfaceToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@1176dcec</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToAbstract()'><b>interfaceToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@1445d7f</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToAbstract()'><b>interfaceToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@6166e06f</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToAbstract()'><b>interfaceToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@38364841</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToAbstract()'><b>interfaceToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@77be656f</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToAbstract()'><b>interfaceToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@70b0b186</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToAbstract()'><b>interfaceToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@61d47554</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToAbstract()'><b>interfaceToAbstract</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@58134517</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToClass()'><b>interfaceToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@6b53e23f</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToClass()'><b>interfaceToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@18a70f16</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToClass()'><b>interfaceToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@4d826d77</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToClass()'><b>interfaceToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@15bb6bea</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToClass()'><b>interfaceToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@6ee12bac</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToClass()'><b>interfaceToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@5ea434c8</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToClass()'><b>interfaceToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@35083305</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToClass()'><b>interfaceToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@123f1134</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.interfaceToClass()'><b>interfaceToClass</b><br>Test class: ratajczak.artur.MorphClassTest<br>Parameters: ratajczak.artur.SupportToCreateClass@55ca8de8</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+<tr>
+<td title='ratajczak.artur.MorphClassTest.redrawTest()'><b>redrawTest</b><br>Test class: ratajczak.artur.MorphClassTest</td>
+<td></td>
+<td>0</td>
+<td>ratajczak.artur.MorphClassTest@7225790e</td></tr>
+</table><p>
+</body>
+</html>

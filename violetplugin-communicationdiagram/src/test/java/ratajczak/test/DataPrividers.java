@@ -11,7 +11,7 @@ public class DataPrividers {
 				{"Class",false},
 				{"Interface",false},
 				{"Object",true},
-				{"Actor",false},
+				{"Actor",true},
 				{"Action",false},
 		};
 	}

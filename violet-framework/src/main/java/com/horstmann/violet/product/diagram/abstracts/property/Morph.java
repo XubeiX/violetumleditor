@@ -1,16 +1,12 @@
 package com.horstmann.violet.product.diagram.abstracts.property;
 
-import java.rmi.server.SocketSecurityException;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-
-import javax.swing.text.DefaultEditorKit.InsertBreakAction;
 
 import com.horstmann.violet.framework.util.SerializableEnumeration;
 import com.horstmann.violet.product.diagram.abstracts.AbstractGraph;
 import com.horstmann.violet.product.diagram.abstracts.edge.IEdge;
 import com.horstmann.violet.product.diagram.abstracts.node.INode;
+import com.horstmann.violet.product.diagram.abstracts.property.morphClass.AbstractNodeMorph;
 import com.horstmann.violet.product.diagram.abstracts.property.morphClass.ClassNodeMorph;
 import com.horstmann.violet.product.diagram.abstracts.property.morphClass.InterfaceNodeMorph;
 
@@ -25,68 +21,169 @@ public class Morph extends SerializableEnumeration {
 	private static final long serialVersionUID = -7185987624987560065L;
 
 	public void morph(INode node) {
+		ArrayList<IEdge> allEdges = new ArrayList<IEdge>(graph.getAllEdges());
+		INode morph = null;
 
 		if (node instanceof ClassNodeMorph) {
 			if (this == TOINTERFACE) {
-				InterfaceNodeMorph inter = new InterfaceNodeMorph();
-				
-				//pobranie wszystkich dostêpnych edgy
-				ArrayList<IEdge> lista = new ArrayList<IEdge>(graph.getAllEdges());
-				for (IEdge iEdge : lista) {
-					System.out.println(iEdge);
-				}
-				//ustawienie nazwy na interfejst
-				MultiLineString name = ((ClassNodeMorph) node).getName();
-				name.setText("<<interface>>\n" + ((ClassNodeMorph) node).getName());
-				inter.setName(name);
-				//skopiowanie metod
-				inter.setMethods(((ClassNodeMorph) node).getMethods());
-				inter.setMorph(TOINTERFACE);
-				//skopiowanie lokalizacji usuniêcie starego i narysowanie nowego w tym miejscu
-				inter.setLocation(((ClassNodeMorph) node).getLocation());
-				graph.removeNode(node);
-				graph.addNode(inter, inter.getLocation());
-				//sprawdzenie jakie edge zosta³y
-				System.out.println("after remove");
-				ArrayList<IEdge> lista2 = new ArrayList<IEdge>(graph.getAllEdges());
-				for (IEdge iEdge : lista2) {
-					System.out.println(iEdge);
-
-				}
-				//wyznaczenie brakuj¹cych edgy
-				//i dorysowanie ich na nowo
-				//TODO nie dzia³a poprawnie ta czeœæ
-				System.out.println("Pozosta³e niewidoczne");
-				lista.removeAll(lista2);
-				for (IEdge iEdge : lista) {
-					System.out.println(iEdge);
-					if(iEdge.getStart()==node){
-					iEdge.setStart(inter);
-					iEdge.setStartLocation(inter.getConnectionPoint(iEdge));
-					}
-					if(iEdge.getEnd()==node){
-						iEdge.setEnd(inter);
-						iEdge.setEndlocation(inter.getConnectionPoint(iEdge));
-					}
-					inter.addConnection(iEdge);
-					graph.connect(iEdge, iEdge.getStart(), iEdge.getStartLocation(), iEdge.getEnd(),
-							iEdge.getEndLocation(), iEdge.getTransitionPoints());
-				}
-
+				morph = classToInterface(node);
+			} else if (this == ABSTRACT) {
+				morph = classToAbstract(node);
 			}
 
+		} else if (node instanceof InterfaceNodeMorph) {
+			if (this == TOCLASS) {
+				morph = interfaceToClass(node);
+			} else if (this == ABSTRACT) {
+				morph = interfaceToAbstract(node);
+			}
+
+		} else if (node instanceof AbstractNodeMorph) {
+			if (this == TOCLASS) {
+				morph = abstractToClass(node);
+			} else if (this == TOINTERFACE) {
+				morph = abstractToInterface(node);
+			}
 		}
-		if (node instanceof InterfaceNodeMorph)
 
-		{
-			if (this == TOCLASS)
-				System.out.println("Z INTERFEJSU NA KLASE");
+		redrawNodes(node, morph);
 
+		ArrayList<IEdge> allEdgesAfterChange = new ArrayList<IEdge>(graph.getAllEdges());
+		redrawEdges(allEdges, allEdgesAfterChange, node, morph);
+
+	}
+
+	private INode abstractToClass(INode node) {
+		ClassNodeMorph cla = new ClassNodeMorph();
+
+		MultiLineString name = ((AbstractNodeMorph) node).getName();
+		String substring = name.getText().replaceFirst("<<abstract>>"+"\n", "");
+		name.setText(substring);
+		cla.setName(name);
+
+		cla.setMethods(((AbstractNodeMorph) node).getMethods());
+		cla.setAttributes(((AbstractNodeMorph) node).getAttributes());
+		cla.setMorph(TOCLASS);
+
+		cla.setLocation(((AbstractNodeMorph) node).getLocation());
+		return cla;
+
+	}
+	
+	private INode abstractToInterface(INode node){
+		InterfaceNodeMorph inter = new InterfaceNodeMorph();
+
+		MultiLineString name = ((AbstractNodeMorph) node).getName();
+		String substring = name.getText().replaceFirst("<<abstract>>"+"\n", "<<interface>>"+"\n");
+		name.setText(substring);
+		inter.setName(name);
+
+		inter.setMethods(((AbstractNodeMorph) node).getMethods());
+		inter.setMorph(TOINTERFACE);
+
+		inter.setLocation(((AbstractNodeMorph) node).getLocation());
+		return inter;
+	}
+
+	private INode classToInterface(INode node) {
+		InterfaceNodeMorph inter = new InterfaceNodeMorph();
+
+		
+		inter.setName(classNameChange(node, "<<interface>>"));
+
+		inter.setMethods(((ClassNodeMorph) node).getMethods());
+		inter.setMorph(TOINTERFACE);
+
+		inter.setLocation(((ClassNodeMorph) node).getLocation());
+		return inter;
+	}
+
+	private INode classToAbstract(INode node) {
+		AbstractNodeMorph abst = new AbstractNodeMorph();
+
+		
+		abst.setName(classNameChange(node, "<<abstract>>"));
+
+		abst.setMethods(((ClassNodeMorph) node).getMethods());
+		abst.setAttributes(((ClassNodeMorph) node).getAttributes());
+
+		abst.setMorph(ABSTRACT);
+		abst.setLocation(((ClassNodeMorph) node).getLocation());
+
+		return abst;
+	}
+	
+	private MultiLineString classNameChange(INode node, String prefix){
+		MultiLineString name = ((ClassNodeMorph) node).getName();
+		name.setText(prefix+"\n" + ((ClassNodeMorph) node).getName().getText());
+		return name;
+	}
+
+	private INode interfaceToClass(INode node) {
+		ClassNodeMorph cla = new ClassNodeMorph();
+
+		MultiLineString name = ((InterfaceNodeMorph) node).getName();
+		String substring = name.getText().replaceFirst("<<interface>>"+"\n", "");
+		name.setText(substring);
+		cla.setName(changeInterfacePrefixName(node, ""));
+
+		cla.setMethods(((InterfaceNodeMorph) node).getMethods());
+		cla.setMorph(TOCLASS);
+
+		cla.setLocation(((InterfaceNodeMorph) node).getLocation());
+		return cla;
+	}
+
+	private INode interfaceToAbstract(INode node) {
+		AbstractNodeMorph abst = new AbstractNodeMorph();
+
+		
+		abst.setName(changeInterfacePrefixName(node, "<<abstract>>"+"\n"));
+
+		abst.setMethods(((InterfaceNodeMorph) node).getMethods());
+		abst.setMorph(ABSTRACT);
+
+		abst.setLocation(((InterfaceNodeMorph) node).getLocation());
+		return abst;
+	}
+	
+	private MultiLineString changeInterfacePrefixName(INode node, String sufix){
+		MultiLineString name = ((InterfaceNodeMorph) node).getName();
+		String substring = name.getText().replaceFirst("<<interface>>"+"\n", sufix);
+		name.setText(substring);
+		return name;
+	}
+
+	private void redrawNodes(INode node, INode morph) {
+		graph.removeNode(node);
+		if (morph instanceof InterfaceNodeMorph)
+			graph.addNode((InterfaceNodeMorph) morph, morph.getLocation());
+		if (morph instanceof ClassNodeMorph)
+			graph.addNode((ClassNodeMorph) morph, morph.getLocation());
+		if (morph instanceof AbstractNodeMorph)
+			graph.addNode((AbstractNodeMorph) morph, morph.getLocation());
+	}
+
+	private void redrawEdges(ArrayList<IEdge> allEdges, ArrayList<IEdge> allEdgesAfterChange, INode node, INode morph) {
+		allEdges.removeAll(allEdgesAfterChange);
+		for (IEdge iEdge : allEdges) {
+			System.out.println(iEdge);
+			if (iEdge.getStart() == node) {
+				iEdge.setStart(morph);
+				iEdge.setStartLocation(morph.getConnectionPoint(iEdge));
+			}
+			if (iEdge.getEnd() == node) {
+				iEdge.setEnd(morph);
+				iEdge.setEndlocation(morph.getConnectionPoint(iEdge));
+			}
+			morph.addConnection(iEdge);
+			graph.connect(iEdge, iEdge.getStart(), iEdge.getStartLocation(), iEdge.getEnd(), iEdge.getEndLocation(),
+					iEdge.getTransitionPoints());
 		}
-
 	}
 
 	public static final Morph TOCLASS = new Morph();
 	public static final Morph TOINTERFACE = new Morph();
+	public static final Morph ABSTRACT = new Morph();
 
 }
