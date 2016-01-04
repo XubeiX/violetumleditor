@@ -15,7 +15,8 @@ public class XLineEdgeBeanInfo extends SimpleBeanInfo {
 					new PropertyDescriptor("middleLabel", XLineEdge.class),
 					new PropertyDescriptor("endLabel", XLineEdge.class),
 					new PropertyDescriptor("endArrowHead", XLineEdge.class),
-					new PropertyDescriptor("bentStyle", XLineEdge.class), };
+					//new PropertyDescriptor("bentStyle", XLineEdge.class), 
+					};
 			
 			for (int i = 0; i < descriptors.length; i++) {
 				descriptors[i].setValue("priority", new Integer(i));

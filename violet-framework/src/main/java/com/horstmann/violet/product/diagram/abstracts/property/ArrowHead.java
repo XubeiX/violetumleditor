@@ -104,24 +104,17 @@ public class ArrowHead extends SerializableEnumeration {
 			path.closePath();
 		} else if (this == X_HEAD) {
 			
-			double x3 = x1 + (2 * ARROW_LENGTH) * Math.cos(angle + ARROW_ANGLE);
-			double x4 = x2 + (2 * ARROW_LENGTH) * Math.cos(angle - ARROW_ANGLE);
-			double y3 = y1 + (2 * ARROW_LENGTH) * Math.sin(angle + ARROW_ANGLE);
-			double y4 = y2 + (2 * ARROW_LENGTH) * Math.sin(angle - ARROW_ANGLE);
-
+			double x3 = x1 -  ARROW_LENGTH * Math.cos(angle + ARROW_ANGLE);
+			double x4 = x2 -  ARROW_LENGTH * Math.cos(angle - ARROW_ANGLE);
+			
 			path.moveTo((float) x1, (float) y1);
-			path.lineTo((float) q.getX(), (float) q.getY());
-			path.lineTo((float) x2, (float) y2);
-			path.lineTo((float) q.getX(), (float) q.getY());
+			path.lineTo((float) x4, (float) y2);
 			path.lineTo((float) x1, (float) y1);
-
-			path.moveTo((float) x3, (float) y3);
-			path.lineTo((float) q.getX(), (float) q.getY());
-			path.lineTo((float) x4, (float) y4);
-			path.lineTo((float) q.getX(), (float) q.getY());
-			path.lineTo((float) x3, (float) y3);
-
-			path.closePath();
+			
+			path.moveTo((float) x2, (float) y2);
+			path.lineTo((float) x3, (float) y1);
+			path.lineTo((float) x2, (float) y2);
+			
 			
 		}
 		return path;

@@ -7,6 +7,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 
+import org.junit.Ignore;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -48,7 +49,7 @@ public class XLineEdgeTest {
 	}
 	
 	
-	@Test(dataProvider="BentStyles", dataProviderClass = DataProviders.class)
+	@Test(dataProvider="BentStyles", dataProviderClass = DataProviders.class, enabled=false)
 	public void BenStyleTest(BentStyle newValue, BentStyle expected){
 		line.setBentStyle(newValue);
 		Assert.assertSame(expected, line.getBentStyle());
