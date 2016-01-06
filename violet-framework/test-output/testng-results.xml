@@ -2,1125 +2,12 @@
 <testng-results skipped="0" failed="0" total="75" passed="75">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="761" started-at="2015-12-29T14:21:15Z" finished-at="2015-12-29T14:21:16Z">
+  <suite name="violet-framework by packages" duration-ms="1187" started-at="2016-01-06T12:52:43Z" finished-at="2016-01-06T12:52:44Z">
     <groups>
     </groups>
-    <test name="AbstractNodeMorphTest" duration-ms="199" started-at="2015-12-29T14:21:15Z" finished-at="2015-12-29T14:21:15Z">
-      <class name="ratajczak.artur.AbstractNodeMorphTest">
-        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="boundsWithSomeText" duration-ms="46" started-at="2015-12-29T15:21:15Z" data-provider="BoundsText" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[przyklad]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- boundsWithSomeText -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="boundsWithSomeText" duration-ms="16" started-at="2015-12-29T15:21:15Z" data-provider="BoundsText" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[zienna dlugosc]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- boundsWithSomeText -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="boundsWithSomeText" duration-ms="15" started-at="2015-12-29T15:21:15Z" data-provider="BoundsText" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nowe znaczenie]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- boundsWithSomeText -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="boundsWithSomeText" duration-ms="16" started-at="2015-12-29T15:21:15Z" data-provider="BoundsText" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- boundsWithSomeText -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="boundsWithSomeText" duration-ms="16" started-at="2015-12-29T15:21:15Z" data-provider="BoundsText" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[A co mi tam]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- boundsWithSomeText -->
-        <test-method status="PASS" signature="cloneTest()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="cloneTest" duration-ms="15" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cloneTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="constructionTest()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="constructionTest" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- constructionTest -->
-        <test-method status="PASS" signature="morphValuTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="morphValuTest" duration-ms="0" started-at="2015-12-29T15:21:15Z" data-provider="Morph" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.TOCLASS]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- morphValuTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="nameIsLargeAndJustyfy()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="nameIsLargeAndJustyfy" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nameIsLargeAndJustyfy -->
-        <test-method status="PASS" signature="morphValuTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="morphValuTest" duration-ms="0" started-at="2015-12-29T15:21:15Z" data-provider="Morph" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.TOINTERFACE]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- morphValuTest -->
-        <test-method status="PASS" signature="morphValuTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="morphValuTest" duration-ms="0" started-at="2015-12-29T15:21:15Z" data-provider="Morph" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.ABSTRACT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- morphValuTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@233c0b17]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-      </class> <!-- ratajczak.artur.AbstractNodeMorphTest -->
-    </test> <!-- AbstractNodeMorphTest -->
-    <test name="ClassNodeMorph" duration-ms="31" started-at="2015-12-29T14:21:15Z" finished-at="2015-12-29T14:21:15Z">
-      <class name="ratajczak.artur.ClassNodeMorphTest">
-        <test-method status="PASS" signature="morphStartValueTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.ClassNodeMorphTest@90f6bfd]" name="morphStartValueTest" duration-ms="0" started-at="2015-12-29T15:21:15Z" data-provider="Morph2" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.TOCLASS]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- morphStartValueTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.ClassNodeMorphTest@90f6bfd]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.ClassNodeMorphTest@90f6bfd]" name="init" is-config="true" duration-ms="16" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.ClassNodeMorphTest@90f6bfd]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="morphStartValueTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.ClassNodeMorphTest@90f6bfd]" name="morphStartValueTest" duration-ms="0" started-at="2015-12-29T15:21:15Z" data-provider="Morph2" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.TOINTERFACE]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- morphStartValueTest -->
-        <test-method status="PASS" signature="morphStartValueTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.ClassNodeMorphTest@90f6bfd]" name="morphStartValueTest" duration-ms="0" started-at="2015-12-29T15:21:15Z" data-provider="Morph2" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.ABSTRACT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- morphStartValueTest -->
-      </class> <!-- ratajczak.artur.ClassNodeMorphTest -->
-    </test> <!-- ClassNodeMorph -->
-    <test name="InterfaceNodeMorpg" duration-ms="47" started-at="2015-12-29T14:21:15Z" finished-at="2015-12-29T14:21:15Z">
-      <class name="ratajczak.artur.InterfaceNodeMorphTest">
-        <test-method status="PASS" signature="morphStartValueTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.InterfaceNodeMorphTest@2d3fcdbd]" name="morphStartValueTest" duration-ms="0" started-at="2015-12-29T15:21:15Z" data-provider="Morph3" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.TOCLASS]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- morphStartValueTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.InterfaceNodeMorphTest@2d3fcdbd]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.InterfaceNodeMorphTest@2d3fcdbd]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="morphStartValueTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.InterfaceNodeMorphTest@2d3fcdbd]" name="morphStartValueTest" duration-ms="0" started-at="2015-12-29T15:21:15Z" data-provider="Morph3" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.TOINTERFACE]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- morphStartValueTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.InterfaceNodeMorphTest@2d3fcdbd]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="morphStartValueTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.InterfaceNodeMorphTest@2d3fcdbd]" name="morphStartValueTest" duration-ms="0" started-at="2015-12-29T15:21:15Z" data-provider="Morph3" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.ABSTRACT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- morphStartValueTest -->
-      </class> <!-- ratajczak.artur.InterfaceNodeMorphTest -->
-    </test> <!-- InterfaceNodeMorpg -->
-    <test name="MorphClass" duration-ms="328" started-at="2015-12-29T14:21:15Z" finished-at="2015-12-29T14:21:16Z">
-      <class name="ratajczak.artur.MorphClassTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="47" started-at="2015-12-29T15:21:15Z" finished-at="2015-12-29T15:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToClass" duration-ms="0" started-at="2015-12-29T15:21:15Z" data-provider="Class" finished-at="2015-12-29T15:21:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@1f7030a6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToClass -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="16" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@15d0c81b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToClass -->
-        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@646d64ab]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToClass -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@2f943d71]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToClass -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@4232c52b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToClass -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@2bbf4b8b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToClass -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToClass" duration-ms="16" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@1d8d30f7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToClass -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@42f93a98]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToClass -->
-        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@467aecef]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToClass -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToINterface" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@23d2a7e8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToINterface -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToINterface" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@44c8afef]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToINterface -->
-        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToINterface" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@6043cd28]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToINterface -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToINterface" duration-ms="15" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@77ec78b9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToINterface -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToINterface" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@cb0ed20]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToINterface -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToAbstract" duration-ms="16" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@25bbf683]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToAbstract -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToINterface" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@7403c468]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToINterface -->
-        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToINterface" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@462d5aee]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToINterface -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToINterface" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@4eb7f003]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToINterface -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@2de8284b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToAbstract -->
-        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="abstractToINterface" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@52f759d7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abstractToINterface -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@43a0cee9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToAbstract -->
-        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToAbstract" duration-ms="16" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@5c18298f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToAbstract -->
-        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@954b04f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToAbstract -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@4c762604]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToAbstract -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToInterfaceTest" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@1068e947]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToInterfaceTest -->
-        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToInterfaceTest" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@1d7acb34]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToInterfaceTest -->
-        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@35a50a4c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToAbstract -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@44a3ec6b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToAbstract -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@5fdba6f9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToAbstract -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToInterfaceTest" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@543e710e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToInterfaceTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToInterfaceTest" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@5e955596]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToInterfaceTest -->
-        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToInterfaceTest" duration-ms="16" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@130f889]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToInterfaceTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToInterfaceTest" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@76b10754]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToInterfaceTest -->
-        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToInterfaceTest" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@46238e3f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToInterfaceTest -->
-        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToInterfaceTest" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@679b62af]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToInterfaceTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@71a794e5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToAbstract -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="classToInterfaceTest" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@2bbaf4f0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classToInterfaceTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="16" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@1445d7f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToAbstract -->
-        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@1176dcec]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToAbstract -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@61d47554]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToAbstract -->
-        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToClass" duration-ms="16" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@18a70f16]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToClass -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@6166e06f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToAbstract -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@58134517]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToAbstract -->
-        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@6b53e23f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToClass -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@38364841]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToAbstract -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@77be656f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToAbstract -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToAbstract" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@70b0b186]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToAbstract -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@5ea434c8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToClass -->
-        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@35083305]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToClass -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@15bb6bea]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToClass -->
-        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@6ee12bac]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToClass -->
-        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@4d826d77]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToClass -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@123f1134]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToClass -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="interfaceToClass" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="Class" finished-at="2015-12-29T15:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratajczak.artur.SupportToCreateClass@55ca8de8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interfaceToClass -->
-        <test-method status="PASS" signature="redrawTest()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="redrawTest" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- redrawTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@7225790e]" name="init" is-config="true" duration-ms="0" started-at="2015-12-29T15:21:16Z" finished-at="2015-12-29T15:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-      </class> <!-- ratajczak.artur.MorphClassTest -->
-    </test> <!-- MorphClass -->
-    <test name="MorphEditor" duration-ms="15" started-at="2015-12-29T14:21:16Z" finished-at="2015-12-29T14:21:16Z">
+    <test name="ratajczak.artur" duration-ms="1187" started-at="2016-01-06T12:52:43Z" finished-at="2016-01-06T12:52:44Z">
       <class name="ratajczak.artur.MorphEditorTest">
-        <test-method status="PASS" signature="testEditorValueAndName(java.lang.String, com.horstmann.violet.product.diagram.abstracts.property.Morph)[pri:0, instance:ratajczak.artur.MorphEditorTest@2c9f9fb0]" name="testEditorValueAndName" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="EditorTest" finished-at="2015-12-29T15:21:16Z">
+        <test-method status="PASS" signature="testEditorValueAndName(java.lang.String, com.horstmann.violet.product.diagram.abstracts.property.Morph)[pri:0, instance:ratajczak.artur.MorphEditorTest@394df057]" name="testEditorValueAndName" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="EditorTest" finished-at="2016-01-06T13:52:44Z">
           <params>
             <param index="0">
               <value>
@@ -1136,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEditorValueAndName -->
-        <test-method status="PASS" signature="testEditorValueAndName(java.lang.String, com.horstmann.violet.product.diagram.abstracts.property.Morph)[pri:0, instance:ratajczak.artur.MorphEditorTest@2c9f9fb0]" name="testEditorValueAndName" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="EditorTest" finished-at="2015-12-29T15:21:16Z">
+        <test-method status="PASS" signature="testEditorValueAndName(java.lang.String, com.horstmann.violet.product.diagram.abstracts.property.Morph)[pri:0, instance:ratajczak.artur.MorphEditorTest@394df057]" name="testEditorValueAndName" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="EditorTest" finished-at="2016-01-06T13:52:44Z">
           <params>
             <param index="0">
               <value>
@@ -1152,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEditorValueAndName -->
-        <test-method status="PASS" signature="testEditorValueAndName(java.lang.String, com.horstmann.violet.product.diagram.abstracts.property.Morph)[pri:0, instance:ratajczak.artur.MorphEditorTest@2c9f9fb0]" name="testEditorValueAndName" duration-ms="0" started-at="2015-12-29T15:21:16Z" data-provider="EditorTest" finished-at="2015-12-29T15:21:16Z">
+        <test-method status="PASS" signature="testEditorValueAndName(java.lang.String, com.horstmann.violet.product.diagram.abstracts.property.Morph)[pri:0, instance:ratajczak.artur.MorphEditorTest@394df057]" name="testEditorValueAndName" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="EditorTest" finished-at="2016-01-06T13:52:44Z">
           <params>
             <param index="0">
               <value>
@@ -1169,6 +56,1111 @@
           </reporter-output>
         </test-method> <!-- testEditorValueAndName -->
       </class> <!-- ratajczak.artur.MorphEditorTest -->
-    </test> <!-- MorphEditor -->
-  </suite> <!-- Suite1 -->
+      <class name="ratajczak.artur.ClassNodeMorphTest">
+        <test-method status="PASS" signature="morphStartValueTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.ClassNodeMorphTest@609cd4d8]" name="morphStartValueTest" duration-ms="0" started-at="2016-01-06T13:52:43Z" data-provider="Morph2" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.TOCLASS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- morphStartValueTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.ClassNodeMorphTest@609cd4d8]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.ClassNodeMorphTest@609cd4d8]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="morphStartValueTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.ClassNodeMorphTest@609cd4d8]" name="morphStartValueTest" duration-ms="0" started-at="2016-01-06T13:52:43Z" data-provider="Morph2" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.TOINTERFACE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- morphStartValueTest -->
+        <test-method status="PASS" signature="morphStartValueTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.ClassNodeMorphTest@609cd4d8]" name="morphStartValueTest" duration-ms="15" started-at="2016-01-06T13:52:43Z" data-provider="Morph2" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.ABSTRACT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- morphStartValueTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.ClassNodeMorphTest@609cd4d8]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- ratajczak.artur.ClassNodeMorphTest -->
+      <class name="ratajczak.artur.InterfaceNodeMorphTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.InterfaceNodeMorphTest@17f7cd29]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="morphStartValueTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.InterfaceNodeMorphTest@17f7cd29]" name="morphStartValueTest" duration-ms="0" started-at="2016-01-06T13:52:43Z" data-provider="Morph3" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.TOCLASS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- morphStartValueTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.InterfaceNodeMorphTest@17f7cd29]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="morphStartValueTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.InterfaceNodeMorphTest@17f7cd29]" name="morphStartValueTest" duration-ms="0" started-at="2016-01-06T13:52:43Z" data-provider="Morph3" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.TOINTERFACE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- morphStartValueTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.InterfaceNodeMorphTest@17f7cd29]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="morphStartValueTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.InterfaceNodeMorphTest@17f7cd29]" name="morphStartValueTest" duration-ms="0" started-at="2016-01-06T13:52:43Z" data-provider="Morph3" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.ABSTRACT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- morphStartValueTest -->
+      </class> <!-- ratajczak.artur.InterfaceNodeMorphTest -->
+      <class name="ratajczak.artur.AbstractNodeMorphTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="init" is-config="true" duration-ms="16" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="boundsWithSomeText" duration-ms="172" started-at="2016-01-06T13:52:43Z" data-provider="BoundsText" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[przyklad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boundsWithSomeText -->
+        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="boundsWithSomeText" duration-ms="0" started-at="2016-01-06T13:52:43Z" data-provider="BoundsText" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zienna dlugosc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boundsWithSomeText -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="boundsWithSomeText" duration-ms="15" started-at="2016-01-06T13:52:43Z" data-provider="BoundsText" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nowe znaczenie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boundsWithSomeText -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="boundsWithSomeText" duration-ms="16" started-at="2016-01-06T13:52:43Z" data-provider="BoundsText" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boundsWithSomeText -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="boundsWithSomeText" duration-ms="16" started-at="2016-01-06T13:52:43Z" data-provider="BoundsText" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A co mi tam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boundsWithSomeText -->
+        <test-method status="PASS" signature="cloneTest()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="cloneTest" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cloneTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="constructionTest()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="constructionTest" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- constructionTest -->
+        <test-method status="PASS" signature="morphValuTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="morphValuTest" duration-ms="0" started-at="2016-01-06T13:52:43Z" data-provider="Morph" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.TOCLASS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- morphValuTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="init" is-config="true" duration-ms="16" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="morphValuTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="morphValuTest" duration-ms="0" started-at="2016-01-06T13:52:43Z" data-provider="Morph" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.TOINTERFACE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- morphValuTest -->
+        <test-method status="PASS" signature="nameIsLargeAndJustyfy()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="nameIsLargeAndJustyfy" duration-ms="15" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameIsLargeAndJustyfy -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="morphValuTest(com.horstmann.violet.product.diagram.abstracts.property.Morph, boolean)[pri:0, instance:ratajczak.artur.AbstractNodeMorphTest@24aed80c]" name="morphValuTest" duration-ms="0" started-at="2016-01-06T13:52:43Z" data-provider="Morph" finished-at="2016-01-06T13:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.Morph.ABSTRACT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- morphValuTest -->
+      </class> <!-- ratajczak.artur.AbstractNodeMorphTest -->
+      <class name="ratajczak.artur.MorphClassTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="63" started-at="2016-01-06T13:52:43Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToClass" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@1e6a3214]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToClass -->
+        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToClass" duration-ms="16" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@6d4d66d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToClass" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@298a5e20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToClass -->
+        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToClass" duration-ms="16" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@78e4deb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToClass" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@173ed316]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToClass" duration-ms="16" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@2034b64c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToClass -->
+        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToClass" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@563f38c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToClass" duration-ms="16" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@6bbe85a8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToClass -->
+        <test-method status="PASS" signature="abstractToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToClass" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@75437611]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToINterface" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@7f485fda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToINterface -->
+        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToINterface" duration-ms="16" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@909217e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToINterface -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToINterface" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@645aa696]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToINterface -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToINterface" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@7ce69770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToINterface -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToINterface" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@4681c175]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToINterface -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="16" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToINterface" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@7c137fd5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToINterface -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToINterface" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@496bc455]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToINterface -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToINterface" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@17fc391b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToINterface -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToAbstract" duration-ms="16" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@3f4faf53]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToAbstract -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="abstractToINterface(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="abstractToINterface" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@305ffe9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abstractToINterface -->
+        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@c430e6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToAbstract -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@7a5ceedd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToAbstract -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@4f32a3ad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToAbstract -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@43f02ef2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToAbstract -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@15a34df2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToAbstract -->
+        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@72c8e7b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToAbstract -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@68c9d179]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToAbstract -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="16" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToInterfaceTest" duration-ms="15" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@624ea235]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToInterfaceTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToInterfaceTest" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@50378a4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToInterfaceTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@55de24cc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToAbstract -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="16" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToInterfaceTest" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@7857fe2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToInterfaceTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToInterfaceTest" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@69504ae9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToInterfaceTest -->
+        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToInterfaceTest" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@71687585]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToInterfaceTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToInterfaceTest" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@7dfb0c0f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToInterfaceTest -->
+        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToInterfaceTest" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@5dafbe45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToInterfaceTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToInterfaceTest" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@1b66c0fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToInterfaceTest -->
+        <test-method status="PASS" signature="classToInterfaceTest(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="classToInterfaceTest" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@7486b455]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classToInterfaceTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToAbstract" duration-ms="16" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@6f36c2f0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToAbstract -->
+        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@5e3f861]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToAbstract -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@78452606]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToAbstract -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@3b6d844d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToAbstract -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@60db1c0e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToAbstract -->
+        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@7d9f158f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToAbstract -->
+        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToAbstract" duration-ms="16" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@68746f22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToAbstract -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@50029372]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToAbstract -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="interfaceToAbstract(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToAbstract" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@54e041a4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToAbstract -->
+        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToClass" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@38af9828]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToClass" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@7283d3eb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToClass -->
+        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToClass" duration-ms="16" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@1cf56a1c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToClass" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@7905a0b8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToClass" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@2ca26d77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToClass" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@e25951c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToClass -->
+        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToClass" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@19b843ba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToClass -->
+        <test-method status="PASS" signature="redrawTest()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="redrawTest" duration-ms="16" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redrawTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToClass" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@19b89d4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:52:44Z" finished-at="2016-01-06T13:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="interfaceToClass(ratajczak.artur.SupportToCreateClass)[pri:0, instance:ratajczak.artur.MorphClassTest@71e9ddb4]" name="interfaceToClass" duration-ms="0" started-at="2016-01-06T13:52:44Z" data-provider="Class" finished-at="2016-01-06T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratajczak.artur.SupportToCreateClass@2dc9b0f5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceToClass -->
+      </class> <!-- ratajczak.artur.MorphClassTest -->
+    </test> <!-- ratajczak.artur -->
+  </suite> <!-- violet-framework by packages -->
 </testng-results>

@@ -20,7 +20,11 @@
 			<class name="ratajczak.test.ClassDiagramGraphTest" />
 		</classes>
 	</test>
-
+<test name="BallAndSocket">
+		<classes>
+			<class name="ratajczak.test.BallAndSocketTest" />
+		</classes>
+	</test>
 
 
 </suite>  

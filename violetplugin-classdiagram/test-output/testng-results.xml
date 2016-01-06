@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="34" passed="34">
+<testng-results skipped="0" failed="0" total="38" passed="38">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="781" started-at="2015-12-26T12:15:48Z" finished-at="2015-12-26T12:15:49Z">
+  <suite name="violetplugin-classdiagram by packages" duration-ms="1218" started-at="2016-01-06T12:49:14Z" finished-at="2016-01-06T12:49:16Z">
     <groups>
     </groups>
-    <test name="XLineEdge" duration-ms="625" started-at="2015-12-26T12:15:48Z" finished-at="2015-12-26T12:15:49Z">
-      <class name="ratajczak.test.XLineEdgeTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="219" started-at="2015-12-26T13:15:48Z" finished-at="2015-12-26T13:15:48Z">
+    <test name="ratajczak.test" duration-ms="1218" started-at="2016-01-06T12:49:14Z" finished-at="2016-01-06T12:49:16Z">
+      <class name="ratajczak.test.RelationShipEgdeTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.RelationShipEgdeTest@5876a9af]" name="init" is-config="true" duration-ms="110" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="BenStyleTest(com.horstmann.violet.product.diagram.abstracts.property.BentStyle, com.horstmann.violet.product.diagram.abstracts.property.BentStyle)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="BenStyleTest" duration-ms="15" started-at="2015-12-26T13:15:48Z" data-provider="BentStyles" finished-at="2015-12-26T13:15:48Z">
+        <test-method status="PASS" signature="testChangeBentStyles(com.horstmann.violet.product.diagram.abstracts.property.BentStyle, com.horstmann.violet.product.diagram.abstracts.property.BentStyle)[pri:0, instance:ratajczak.test.RelationShipEgdeTest@5876a9af]" name="testChangeBentStyles" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="BentStyles" finished-at="2016-01-06T13:49:15Z">
           <params>
             <param index="0">
               <value>
@@ -26,36 +26,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BenStyleTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:48Z" finished-at="2015-12-26T13:15:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:48Z" finished-at="2015-12-26T13:15:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:48Z" finished-at="2015-12-26T13:15:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="BenStyleTest(com.horstmann.violet.product.diagram.abstracts.property.BentStyle, com.horstmann.violet.product.diagram.abstracts.property.BentStyle)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="BenStyleTest" duration-ms="0" started-at="2015-12-26T13:15:48Z" data-provider="BentStyles" finished-at="2015-12-26T13:15:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.BentStyle.HV]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.BentStyle.HV]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BenStyleTest -->
-        <test-method status="PASS" signature="BenStyleTest(com.horstmann.violet.product.diagram.abstracts.property.BentStyle, com.horstmann.violet.product.diagram.abstracts.property.BentStyle)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="BenStyleTest" duration-ms="0" started-at="2015-12-26T13:15:48Z" data-provider="BentStyles" finished-at="2015-12-26T13:15:48Z">
+        </test-method> <!-- testChangeBentStyles -->
+        <test-method status="PASS" signature="testChangeBentStyles(com.horstmann.violet.product.diagram.abstracts.property.BentStyle, com.horstmann.violet.product.diagram.abstracts.property.BentStyle)[pri:0, instance:ratajczak.test.RelationShipEgdeTest@5876a9af]" name="testChangeBentStyles" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="BentStyles" finished-at="2016-01-06T13:49:15Z">
           <params>
             <param index="0">
               <value>
@@ -70,8 +42,36 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BenStyleTest -->
-        <test-method status="PASS" signature="BenStyleTest(com.horstmann.violet.product.diagram.abstracts.property.BentStyle, com.horstmann.violet.product.diagram.abstracts.property.BentStyle)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="BenStyleTest" duration-ms="0" started-at="2015-12-26T13:15:48Z" data-provider="BentStyles" finished-at="2015-12-26T13:15:48Z">
+        </test-method> <!-- testChangeBentStyles -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.RelationShipEgdeTest@5876a9af]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testChangeBentStyles(com.horstmann.violet.product.diagram.abstracts.property.BentStyle, com.horstmann.violet.product.diagram.abstracts.property.BentStyle)[pri:0, instance:ratajczak.test.RelationShipEgdeTest@5876a9af]" name="testChangeBentStyles" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="BentStyles" finished-at="2016-01-06T13:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.BentStyle.HV]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.BentStyle.HV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeBentStyles -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.RelationShipEgdeTest@5876a9af]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.RelationShipEgdeTest@5876a9af]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testChangeBentStyles(com.horstmann.violet.product.diagram.abstracts.property.BentStyle, com.horstmann.violet.product.diagram.abstracts.property.BentStyle)[pri:0, instance:ratajczak.test.RelationShipEgdeTest@5876a9af]" name="testChangeBentStyles" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="BentStyles" finished-at="2016-01-06T13:49:15Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -84,44 +84,192 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BenStyleTest -->
-        <test-method status="PASS" signature="checkLable(java.lang.String, java.lang.String)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="checkLable" duration-ms="0" started-at="2015-12-26T13:15:48Z" data-provider="LabelTest" finished-at="2015-12-26T13:15:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Artur]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Artur]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLable -->
-        <test-method status="PASS" signature="checkLable(java.lang.String, java.lang.String)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="checkLable" duration-ms="0" started-at="2015-12-26T13:15:48Z" data-provider="LabelTest" finished-at="2015-12-26T13:15:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[label]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[label]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLable -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:48Z" finished-at="2015-12-26T13:15:48Z">
+        </test-method> <!-- testChangeBentStyles -->
+      </class> <!-- ratajczak.test.RelationShipEgdeTest -->
+      <class name="ratajczak.test.ClassDiagramGraphTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@59309333]" name="init" is-config="true" duration-ms="235" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="checkLable(java.lang.String, java.lang.String)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="checkLable" duration-ms="0" started-at="2015-12-26T13:15:48Z" data-provider="LabelTest" finished-at="2015-12-26T13:15:48Z">
+        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@59309333]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="ProtptypeTest" finished-at="2016-01-06T13:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linia pozioma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoulbeClassInEdgeList -->
+        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@59309333]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="ProtptypeTest" finished-at="2016-01-06T13:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Class Diagram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoulbeClassInEdgeList -->
+        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@59309333]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="ProtptypeTest" finished-at="2016-01-06T13:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Association Navigability]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoulbeClassInEdgeList -->
+        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@59309333]" name="ShoulbeClassInEdgeList" duration-ms="16" started-at="2016-01-06T13:49:15Z" data-provider="ProtptypeTest" finished-at="2016-01-06T13:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Artur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoulbeClassInEdgeList -->
+        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@59309333]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="ProtptypeTest" finished-at="2016-01-06T13:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Note connector]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoulbeClassInEdgeList -->
+        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@59309333]" name="ShoulbeClassInEdgeList" duration-ms="15" started-at="2016-01-06T13:49:15Z" data-provider="ProtptypeTest" finished-at="2016-01-06T13:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<<Use>>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoulbeClassInEdgeList -->
+        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@59309333]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="ProtptypeTest" finished-at="2016-01-06T13:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<<Create>>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoulbeClassInEdgeList -->
+        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@59309333]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="ProtptypeTest" finished-at="2016-01-06T13:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<<Extends>>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoulbeClassInEdgeList -->
+      </class> <!-- ratajczak.test.ClassDiagramGraphTest -->
+      <class name="ratajczak.test.BallAndSocketTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.BallAndSocketTest@f5ac9e4]" name="init" is-config="true" duration-ms="328" started-at="2016-01-06T13:49:14Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="copyBall()[pri:0, instance:ratajczak.test.BallAndSocketTest@f5ac9e4]" name="copyBall" duration-ms="15" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyBall -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.BallAndSocketTest@f5ac9e4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="copySocket()[pri:0, instance:ratajczak.test.BallAndSocketTest@f5ac9e4]" name="copySocket" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copySocket -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.BallAndSocketTest@f5ac9e4]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testBallBounds()[pri:0, instance:ratajczak.test.BallAndSocketTest@f5ac9e4]" name="testBallBounds" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBallBounds -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.BallAndSocketTest@f5ac9e4]" name="init" is-config="true" duration-ms="15" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testSocketBounds()[pri:0, instance:ratajczak.test.BallAndSocketTest@f5ac9e4]" name="testSocketBounds" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSocketBounds -->
+      </class> <!-- ratajczak.test.BallAndSocketTest -->
+      <class name="ratajczak.test.XLineEdgeBeanInfoTest">
+        <test-method status="PASS" signature="propertDescriptorCheck()[pri:0, instance:ratajczak.test.XLineEdgeBeanInfoTest@7ec7ffd3]" name="propertDescriptorCheck" duration-ms="31" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertDescriptorCheck -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeBeanInfoTest@7ec7ffd3]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- ratajczak.test.XLineEdgeBeanInfoTest -->
+      <class name="ratajczak.test.XLineEdgeTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="checkLable(java.lang.String, java.lang.String)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="checkLable" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="LabelTest" finished-at="2016-01-06T13:49:15Z">
           <params>
             <param index="0">
               <value>
@@ -137,15 +285,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLable -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:48Z" finished-at="2015-12-26T13:15:48Z">
+        <test-method status="PASS" signature="checkLable(java.lang.String, java.lang.String)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="checkLable" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="LabelTest" finished-at="2016-01-06T13:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[label]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[label]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLable -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:48Z" finished-at="2015-12-26T13:15:48Z">
+        <test-method status="PASS" signature="checkLable(java.lang.String, java.lang.String)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="checkLable" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="LabelTest" finished-at="2016-01-06T13:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Artur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Artur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLable -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="checkLable(java.lang.String, java.lang.String)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="checkLable" duration-ms="0" started-at="2015-12-26T13:15:48Z" data-provider="LabelTest" finished-at="2015-12-26T13:15:48Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="checkLable(java.lang.String, java.lang.String)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="checkLable" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="LabelTest" finished-at="2016-01-06T13:49:15Z">
           <params>
             <param index="0">
               <value>
@@ -161,34 +345,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLable -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:48Z" finished-at="2015-12-26T13:15:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:48Z" finished-at="2015-12-26T13:15:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="getConnectionPointsBetween2Class()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="getConnectionPointsBetween2Class" duration-ms="219" started-at="2015-12-26T13:15:48Z" description="Wymiary bloków ClassNode to 100x60. Wynik to skrajny punkt klasy startowej lub początkowej" finished-at="2015-12-26T13:15:49Z">
+        <test-method status="PASS" signature="getConnectionPointsBetween2Class()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="getConnectionPointsBetween2Class" duration-ms="47" started-at="2016-01-06T13:49:15Z" description="Wymiary bloków ClassNode to 100x60. Wynik to skrajny punkt klasy startowej lub początkowej" finished-at="2016-01-06T13:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getConnectionPointsBetween2Class -->
-        <test-method status="PASS" signature="getLineStyleShouldBeSOLID()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="getLineStyleShouldBeSOLID" duration-ms="16" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getLineStyleShouldBeSOLID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="getNoExistingLine()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="getNoExistingLine" duration-ms="0" started-at="2015-12-26T13:15:49Z" description="Brak punktów by wyznaczyć linię" finished-at="2015-12-26T13:15:49Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getLineStyleShouldBeSOLID()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="getLineStyleShouldBeSOLID" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLineStyleShouldBeSOLID -->
+        <test-method status="PASS" signature="getNoExistingLine()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="getNoExistingLine" duration-ms="0" started-at="2016-01-06T13:49:15Z" description="Brak punktów by wyznaczyć linię" finished-at="2016-01-06T13:49:15Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.horstmann.violet.product.diagram.classes.edges.XLineEdge.getPointsForNodesOnDifferentLifeLines(XLineEdge.java:57)
-	at com.horstmann.violet.product.diagram.classes.edges.XLineEdge.getPoints(XLineEdge.java:52)
-	at com.horstmann.violet.product.diagram.classes.edges.XLineEdge.getConnectionPoints(XLineEdge.java:41)
-	at ratajczak.test.XLineEdgeTest.getNoExistingLine(XLineEdgeTest.java:94)
+	at com.horstmann.violet.product.diagram.abstracts.edge.AbstractEdge.getConnectionPoints(AbstractEdge.java:156)
+	at ratajczak.test.XLineEdgeTest.getNoExistingLine(XLineEdgeTest.java:95)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -219,33 +397,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getNoExistingLine -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="isTransitionPointsSupportedShouldBeFALSE()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="isTransitionPointsSupportedShouldBeFALSE" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTransitionPointsSupportedShouldBeFALSE -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="privateMethodReturnedPointsTest()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="privateMethodReturnedPointsTest" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- privateMethodReturnedPointsTest -->
-        <test-method status="PASS" signature="getsAllNoExistingPoints()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="getsAllNoExistingPoints" duration-ms="0" started-at="2015-12-26T13:15:49Z" description="Brak jakichkolwiek punktów by je pobrać" finished-at="2015-12-26T13:15:49Z">
+        <test-method status="PASS" signature="getsAllNoExistingPoints()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="getsAllNoExistingPoints" duration-ms="0" started-at="2016-01-06T13:49:15Z" description="Brak jakichkolwiek punktów by je pobrać" finished-at="2016-01-06T13:49:15Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.horstmann.violet.product.diagram.classes.edges.XLineEdge.getPointsForNodesOnDifferentLifeLines(XLineEdge.java:57)
-	at com.horstmann.violet.product.diagram.classes.edges.XLineEdge.getPoints(XLineEdge.java:52)
-	at ratajczak.test.XLineEdgeTest.getsAllNoExistingPoints(XLineEdgeTest.java:87)
+	at com.horstmann.violet.product.diagram.abstracts.edge.AbstractEdge.getConnectionPoints(AbstractEdge.java:156)
+	at com.horstmann.violet.product.diagram.abstracts.edge.SegmentedLineEdge.getPoints(SegmentedLineEdge.java:402)
+	at ratajczak.test.XLineEdgeTest.getsAllNoExistingPoints(XLineEdgeTest.java:88)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -276,15 +442,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getsAllNoExistingPoints -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
+        <test-method status="PASS" signature="isTransitionPointsSupportedShouldBeFALSE()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="isTransitionPointsSupportedShouldBeFALSE" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTransitionPointsSupportedShouldBeFALSE -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="shouldSetOnlyXandVEndArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="shouldSetOnlyXandVEndArrowHead" duration-ms="16" started-at="2015-12-26T13:15:49Z" data-provider="ArrowHeads" finished-at="2015-12-26T13:15:49Z">
+        <test-method status="PASS" signature="privateMethodReturnedPointsTest()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="privateMethodReturnedPointsTest" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privateMethodReturnedPointsTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="shouldSetOnlyXandVEndArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="shouldSetOnlyXandVEndArrowHead" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="ArrowHeads" finished-at="2016-01-06T13:49:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.HALF_V]]>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.BLACK_DIAMOND]]>
               </value>
             </param>
             <param index="1">
@@ -296,184 +474,184 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldSetOnlyXandVEndArrowHead -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="shouldNotChangeLineStyle()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="shouldNotChangeLineStyle" duration-ms="0" started-at="2015-12-26T13:15:49Z" description="Nie powinno dać się zmienić stylu lini" finished-at="2015-12-26T13:15:49Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="shouldNotChangeLineStyle()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="shouldNotChangeLineStyle" duration-ms="0" started-at="2016-01-06T13:49:15Z" description="Nie powinno dać się zmienić stylu lini" finished-at="2016-01-06T13:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldNotChangeLineStyle -->
-        <test-method status="PASS" signature="shouldSetOnlyXandVEndArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="shouldSetOnlyXandVEndArrowHead" duration-ms="0" started-at="2015-12-26T13:15:49Z" data-provider="ArrowHeads" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.BLACK_DIAMOND]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.NONE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldSetOnlyXandVEndArrowHead -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="shouldSetOnlyXandVEndArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="shouldSetOnlyXandVEndArrowHead" duration-ms="0" started-at="2015-12-26T13:15:49Z" data-provider="ArrowHeads" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.X_HEAD]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.X_HEAD]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldSetOnlyXandVEndArrowHead -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="shouldSetOnlyXandVEndArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="shouldSetOnlyXandVEndArrowHead" duration-ms="0" started-at="2015-12-26T13:15:49Z" data-provider="ArrowHeads" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.V]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.V]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldSetOnlyXandVEndArrowHead -->
-        <test-method status="PASS" signature="shouldSetOnlyXandVStartArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="shouldSetOnlyXandVStartArrowHead" duration-ms="15" started-at="2015-12-26T13:15:49Z" description="Metoda zezwala wyłącznie na ustawienie X_HEAD inaczej ustawia NONE" data-provider="ArrowHeads" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.X_HEAD]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.X_HEAD]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldSetOnlyXandVStartArrowHead -->
-        <test-method status="PASS" signature="shouldSetOnlyXandVEndArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="shouldSetOnlyXandVEndArrowHead" duration-ms="0" started-at="2015-12-26T13:15:49Z" data-provider="ArrowHeads" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.NONE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldSetOnlyXandVEndArrowHead -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="shouldSetOnlyXandVStartArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="shouldSetOnlyXandVStartArrowHead" duration-ms="0" started-at="2015-12-26T13:15:49Z" description="Metoda zezwala wyłącznie na ustawienie X_HEAD inaczej ustawia NONE" data-provider="ArrowHeads" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.BLACK_DIAMOND]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.NONE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldSetOnlyXandVStartArrowHead -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="shouldSetOnlyXandVStartArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="shouldSetOnlyXandVStartArrowHead" duration-ms="0" started-at="2015-12-26T13:15:49Z" description="Metoda zezwala wyłącznie na ustawienie X_HEAD inaczej ustawia NONE" data-provider="ArrowHeads" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.NONE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldSetOnlyXandVStartArrowHead -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="shouldSetOnlyXandVStartArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="shouldSetOnlyXandVStartArrowHead" duration-ms="0" started-at="2015-12-26T13:15:49Z" description="Metoda zezwala wyłącznie na ustawienie X_HEAD inaczej ustawia NONE" data-provider="ArrowHeads" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.V]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.V]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldSetOnlyXandVStartArrowHead -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="shouldSetOnlyXandVStartArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@33a10788]" name="shouldSetOnlyXandVStartArrowHead" duration-ms="0" started-at="2015-12-26T13:15:49Z" description="Metoda zezwala wyłącznie na ustawienie X_HEAD inaczej ustawia NONE" data-provider="ArrowHeads" finished-at="2015-12-26T13:15:49Z">
+        <test-method status="PASS" signature="shouldSetOnlyXandVEndArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="shouldSetOnlyXandVEndArrowHead" duration-ms="16" started-at="2016-01-06T13:49:15Z" data-provider="ArrowHeads" finished-at="2016-01-06T13:49:16Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.HALF_V]]>
               </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.NONE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSetOnlyXandVEndArrowHead -->
+        <test-method status="PASS" signature="shouldSetOnlyXandVEndArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="shouldSetOnlyXandVEndArrowHead" duration-ms="0" started-at="2016-01-06T13:49:15Z" data-provider="ArrowHeads" finished-at="2016-01-06T13:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.X_HEAD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.X_HEAD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSetOnlyXandVEndArrowHead -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:15Z" finished-at="2016-01-06T13:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:16Z" finished-at="2016-01-06T13:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="shouldSetOnlyXandVEndArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="shouldSetOnlyXandVEndArrowHead" duration-ms="0" started-at="2016-01-06T13:49:16Z" data-provider="ArrowHeads" finished-at="2016-01-06T13:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.V]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.V]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSetOnlyXandVEndArrowHead -->
+        <test-method status="PASS" signature="shouldSetOnlyXandVEndArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="shouldSetOnlyXandVEndArrowHead" duration-ms="0" started-at="2016-01-06T13:49:16Z" data-provider="ArrowHeads" finished-at="2016-01-06T13:49:16Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.NONE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSetOnlyXandVEndArrowHead -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:16Z" finished-at="2016-01-06T13:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="shouldSetOnlyXandVStartArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="shouldSetOnlyXandVStartArrowHead" duration-ms="0" started-at="2016-01-06T13:49:16Z" description="Metoda zezwala wyłącznie na ustawienie X_HEAD inaczej ustawia NONE" data-provider="ArrowHeads" finished-at="2016-01-06T13:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.BLACK_DIAMOND]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.NONE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSetOnlyXandVStartArrowHead -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:16Z" finished-at="2016-01-06T13:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:16Z" finished-at="2016-01-06T13:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:16Z" finished-at="2016-01-06T13:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="shouldSetOnlyXandVStartArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="shouldSetOnlyXandVStartArrowHead" duration-ms="0" started-at="2016-01-06T13:49:16Z" description="Metoda zezwala wyłącznie na ustawienie X_HEAD inaczej ustawia NONE" data-provider="ArrowHeads" finished-at="2016-01-06T13:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.X_HEAD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.X_HEAD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSetOnlyXandVStartArrowHead -->
+        <test-method status="PASS" signature="shouldSetOnlyXandVStartArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="shouldSetOnlyXandVStartArrowHead" duration-ms="16" started-at="2016-01-06T13:49:16Z" description="Metoda zezwala wyłącznie na ustawienie X_HEAD inaczej ustawia NONE" data-provider="ArrowHeads" finished-at="2016-01-06T13:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.HALF_V]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.NONE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSetOnlyXandVStartArrowHead -->
+        <test-method status="PASS" signature="shouldSetOnlyXandVStartArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="shouldSetOnlyXandVStartArrowHead" duration-ms="0" started-at="2016-01-06T13:49:16Z" description="Metoda zezwala wyłącznie na ustawienie X_HEAD inaczej ustawia NONE" data-provider="ArrowHeads" finished-at="2016-01-06T13:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.V]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.horstmann.violet.product.diagram.abstracts.property.ArrowHead.V]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSetOnlyXandVStartArrowHead -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:16Z" finished-at="2016-01-06T13:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:49:16Z" finished-at="2016-01-06T13:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="shouldSetOnlyXandVStartArrowHead(com.horstmann.violet.product.diagram.abstracts.property.ArrowHead, com.horstmann.violet.product.diagram.abstracts.property.ArrowHead)[pri:0, instance:ratajczak.test.XLineEdgeTest@5b239d7d]" name="shouldSetOnlyXandVStartArrowHead" duration-ms="0" started-at="2016-01-06T13:49:16Z" description="Metoda zezwala wyłącznie na ustawienie X_HEAD inaczej ustawia NONE" data-provider="ArrowHeads" finished-at="2016-01-06T13:49:16Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
             </param>
             <param index="1">
               <value>
@@ -485,154 +663,6 @@
           </reporter-output>
         </test-method> <!-- shouldSetOnlyXandVStartArrowHead -->
       </class> <!-- ratajczak.test.XLineEdgeTest -->
-    </test> <!-- XLineEdge -->
-    <test name="XLineEdgeBeanInfoTest" duration-ms="16" started-at="2015-12-26T12:15:49Z" finished-at="2015-12-26T12:15:49Z">
-      <class name="ratajczak.test.XLineEdgeBeanInfoTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.XLineEdgeBeanInfoTest@19bb089b]" name="init" is-config="true" duration-ms="0" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="propertDescriptorCheck()[pri:0, instance:ratajczak.test.XLineEdgeBeanInfoTest@19bb089b]" name="propertDescriptorCheck" duration-ms="16" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- propertDescriptorCheck -->
-      </class> <!-- ratajczak.test.XLineEdgeBeanInfoTest -->
-    </test> <!-- XLineEdgeBeanInfoTest -->
-    <test name="ClassDiagramGraph" duration-ms="47" started-at="2015-12-26T12:15:49Z" finished-at="2015-12-26T12:15:49Z">
-      <class name="ratajczak.test.ClassDiagramGraphTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@7e0babb1]" name="init" is-config="true" duration-ms="16" started-at="2015-12-26T13:15:49Z" finished-at="2015-12-26T13:15:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@7e0babb1]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2015-12-26T13:15:49Z" data-provider="ProtptypeTest" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Class Diagram]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShoulbeClassInEdgeList -->
-        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@7e0babb1]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2015-12-26T13:15:49Z" data-provider="ProtptypeTest" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Linia pozioma]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShoulbeClassInEdgeList -->
-        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@7e0babb1]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2015-12-26T13:15:49Z" data-provider="ProtptypeTest" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[<<Extends>>]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShoulbeClassInEdgeList -->
-        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@7e0babb1]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2015-12-26T13:15:49Z" data-provider="ProtptypeTest" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Note connector]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShoulbeClassInEdgeList -->
-        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@7e0babb1]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2015-12-26T13:15:49Z" data-provider="ProtptypeTest" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Artur]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShoulbeClassInEdgeList -->
-        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@7e0babb1]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2015-12-26T13:15:49Z" data-provider="ProtptypeTest" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[<<Create>>]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShoulbeClassInEdgeList -->
-        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@7e0babb1]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2015-12-26T13:15:49Z" data-provider="ProtptypeTest" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[<<Use>>]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShoulbeClassInEdgeList -->
-        <test-method status="PASS" signature="ShoulbeClassInEdgeList(java.lang.String, boolean)[pri:0, instance:ratajczak.test.ClassDiagramGraphTest@7e0babb1]" name="ShoulbeClassInEdgeList" duration-ms="0" started-at="2015-12-26T13:15:49Z" data-provider="ProtptypeTest" finished-at="2015-12-26T13:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Association Navigability]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShoulbeClassInEdgeList -->
-      </class> <!-- ratajczak.test.ClassDiagramGraphTest -->
-    </test> <!-- ClassDiagramGraph -->
-  </suite> <!-- Suite1 -->
+    </test> <!-- ratajczak.test -->
+  </suite> <!-- violetplugin-classdiagram by packages -->
 </testng-results>

@@ -2,378 +2,196 @@
 <testng-results skipped="0" failed="0" total="33" passed="33">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="1294" started-at="2015-12-27T11:43:46Z" finished-at="2015-12-27T11:43:47Z">
+  <suite name="violetplugin-communicationdiagram by packages" duration-ms="1063" started-at="2016-01-06T12:51:25Z" finished-at="2016-01-06T12:51:26Z">
     <groups>
     </groups>
-    <test name="Communication Diagram Graph" duration-ms="568" started-at="2015-12-27T11:43:46Z" finished-at="2015-12-27T11:43:46Z">
-      <class name="ratajczak.test.DiagramGraphTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DiagramGraphTest@4b6995df]" name="init" is-config="true" duration-ms="477" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="edgesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@4b6995df]" name="edgesPrototypeTest" duration-ms="15" started-at="2015-12-27T12:43:46Z" description="Powinna wystąpic strzałka o nazwie Message w prototypach" data-provider="EdgesToolTipTest" finished-at="2015-12-27T12:43:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Depends on]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- edgesPrototypeTest -->
-        <test-method status="PASS" signature="edgesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@4b6995df]" name="edgesPrototypeTest" duration-ms="1" started-at="2015-12-27T12:43:46Z" description="Powinna wystąpic strzałka o nazwie Message w prototypach" data-provider="EdgesToolTipTest" finished-at="2015-12-27T12:43:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Is associated with]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- edgesPrototypeTest -->
-        <test-method status="PASS" signature="edgesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@4b6995df]" name="edgesPrototypeTest" duration-ms="4" started-at="2015-12-27T12:43:46Z" description="Powinna wystąpic strzałka o nazwie Message w prototypach" data-provider="EdgesToolTipTest" finished-at="2015-12-27T12:43:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Message]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- edgesPrototypeTest -->
-        <test-method status="PASS" signature="edgesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@4b6995df]" name="edgesPrototypeTest" duration-ms="1" started-at="2015-12-27T12:43:46Z" description="Powinna wystąpic strzałka o nazwie Message w prototypach" data-provider="EdgesToolTipTest" finished-at="2015-12-27T12:43:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[<<Use>>]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- edgesPrototypeTest -->
-        <test-method status="PASS" signature="edgesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@4b6995df]" name="edgesPrototypeTest" duration-ms="1" started-at="2015-12-27T12:43:46Z" description="Powinna wystąpic strzałka o nazwie Message w prototypach" data-provider="EdgesToolTipTest" finished-at="2015-12-27T12:43:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Is composed of]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- edgesPrototypeTest -->
-        <test-method status="PASS" signature="nodesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@4b6995df]" name="nodesPrototypeTest" duration-ms="1" started-at="2015-12-27T12:43:46Z" description="W liście powinien znajdować się klasa obiekt" data-provider="NodesToolTipTest" finished-at="2015-12-27T12:43:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Class]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nodesPrototypeTest -->
-        <test-method status="PASS" signature="nodesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@4b6995df]" name="nodesPrototypeTest" duration-ms="4" started-at="2015-12-27T12:43:46Z" description="W liście powinien znajdować się klasa obiekt" data-provider="NodesToolTipTest" finished-at="2015-12-27T12:43:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Interface]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nodesPrototypeTest -->
-        <test-method status="PASS" signature="nodesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@4b6995df]" name="nodesPrototypeTest" duration-ms="2" started-at="2015-12-27T12:43:46Z" description="W liście powinien znajdować się klasa obiekt" data-provider="NodesToolTipTest" finished-at="2015-12-27T12:43:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Object]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nodesPrototypeTest -->
-        <test-method status="PASS" signature="nodesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@4b6995df]" name="nodesPrototypeTest" duration-ms="1" started-at="2015-12-27T12:43:46Z" description="W liście powinien znajdować się klasa obiekt" data-provider="NodesToolTipTest" finished-at="2015-12-27T12:43:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Actor]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nodesPrototypeTest -->
-        <test-method status="PASS" signature="nodesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@4b6995df]" name="nodesPrototypeTest" duration-ms="2" started-at="2015-12-27T12:43:46Z" description="W liście powinien znajdować się klasa obiekt" data-provider="NodesToolTipTest" finished-at="2015-12-27T12:43:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Action]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nodesPrototypeTest -->
-      </class> <!-- ratajczak.test.DiagramGraphTest -->
-    </test> <!-- Communication Diagram Graph -->
-    <test name="Communication Diagram Plugin" duration-ms="6" started-at="2015-12-27T11:43:46Z" finished-at="2015-12-27T11:43:46Z">
-      <class name="ratajczak.test.DiagramPluginTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DiagramPluginTest@47f37ef1]" name="init" is-config="true" duration-ms="4" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="DiagramPropertyTest()[pri:0, instance:ratajczak.test.DiagramPluginTest@47f37ef1]" name="DiagramPropertyTest" duration-ms="1" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DiagramPropertyTest -->
-      </class> <!-- ratajczak.test.DiagramPluginTest -->
-    </test> <!-- Communication Diagram Plugin -->
-    <test name="Message Arrow Test" duration-ms="79" started-at="2015-12-27T11:43:46Z" finished-at="2015-12-27T11:43:46Z">
+    <test name="ratajczak.test" duration-ms="1063" started-at="2016-01-06T12:51:25Z" finished-at="2016-01-06T12:51:26Z">
       <class name="ratajczak.test.DirectionEdgeTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="init" is-config="true" duration-ms="0" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:25Z" finished-at="2016-01-06T13:51:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="MessageConstructionTest" duration-ms="2" started-at="2015-12-27T12:43:46Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="MessageConstructionTest" duration-ms="0" started-at="2016-01-06T13:51:25Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2016-01-06T13:51:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ratajczak.test.supportMessageTest@6f1fba17]]>
+                <![CDATA[ratajczak.test.supportMessageTest@611889f4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MessageConstructionTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="init" is-config="true" duration-ms="1" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:25Z" finished-at="2016-01-06T13:51:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="MessageConstructionTest" duration-ms="1" started-at="2015-12-27T12:43:46Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="MessageConstructionTest" duration-ms="0" started-at="2016-01-06T13:51:25Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2016-01-06T13:51:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ratajczak.test.supportMessageTest@1f28c152]]>
+                <![CDATA[ratajczak.test.supportMessageTest@7fee8714]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MessageConstructionTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="init" is-config="true" duration-ms="0" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="MessageConstructionTest" duration-ms="5" started-at="2015-12-27T12:43:46Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="MessageConstructionTest" duration-ms="0" started-at="2016-01-06T13:51:26Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2016-01-06T13:51:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ratajczak.test.supportMessageTest@7b49cea0]]>
+                <![CDATA[ratajczak.test.supportMessageTest@66d3eec0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MessageConstructionTest -->
-        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="MessageConstructionTest" duration-ms="1" started-at="2015-12-27T12:43:46Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="MessageConstructionTest" duration-ms="0" started-at="2016-01-06T13:51:26Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2016-01-06T13:51:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ratajczak.test.supportMessageTest@43814d18]]>
+                <![CDATA[ratajczak.test.supportMessageTest@7c24b813]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MessageConstructionTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="init" is-config="true" duration-ms="0" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="MessageConstructionTest" duration-ms="6" started-at="2015-12-27T12:43:46Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="MessageConstructionTest" duration-ms="0" started-at="2016-01-06T13:51:26Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2016-01-06T13:51:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ratajczak.test.supportMessageTest@6ebc05a6]]>
+                <![CDATA[ratajczak.test.supportMessageTest@4f2b503c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MessageConstructionTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="init" is-config="true" duration-ms="0" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="init" is-config="true" duration-ms="1" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="MessageConstructionTest" duration-ms="2" started-at="2015-12-27T12:43:46Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="MessageConstructionTest" duration-ms="16" started-at="2016-01-06T13:51:26Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2016-01-06T13:51:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ratajczak.test.supportMessageTest@79be0360]]>
+                <![CDATA[ratajczak.test.supportMessageTest@5d0a1059]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MessageConstructionTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="init" is-config="true" duration-ms="1" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="MessageConstructionTest" duration-ms="0" started-at="2015-12-27T12:43:46Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="MessageConstructionTest" duration-ms="0" started-at="2016-01-06T13:51:26Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2016-01-06T13:51:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ratajczak.test.supportMessageTest@30b8a058]]>
+                <![CDATA[ratajczak.test.supportMessageTest@6e0f5f7f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MessageConstructionTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="init" is-config="true" duration-ms="0" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="MessageConstructionTest" duration-ms="2" started-at="2015-12-27T12:43:46Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="MessageConstructionTest" duration-ms="0" started-at="2016-01-06T13:51:26Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2016-01-06T13:51:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ratajczak.test.supportMessageTest@2a17b7b6]]>
+                <![CDATA[ratajczak.test.supportMessageTest@66f57048]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MessageConstructionTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="init" is-config="true" duration-ms="0" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="MessageConstructionTest" duration-ms="1" started-at="2015-12-27T12:43:46Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="MessageConstructionTest" duration-ms="0" started-at="2016-01-06T13:51:26Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2016-01-06T13:51:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ratajczak.test.supportMessageTest@711f39f9]]>
+                <![CDATA[ratajczak.test.supportMessageTest@67f639d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MessageConstructionTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="init" is-config="true" duration-ms="3" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="MessageConstructionTest" duration-ms="1" started-at="2015-12-27T12:43:46Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="MessageConstructionTest(ratajczak.test.supportMessageTest)[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="MessageConstructionTest" duration-ms="0" started-at="2016-01-06T13:51:26Z" description="Sprawdzenie poprawnej konstrukcji dla middleLabel" data-provider="MessageConstruction" finished-at="2016-01-06T13:51:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ratajczak.test.supportMessageTest@6895a785]]>
+                <![CDATA[ratajczak.test.supportMessageTest@53ce1329]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MessageConstructionTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="init" is-config="true" duration-ms="1" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="constructionTest()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="constructionTest" duration-ms="1" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- constructionTest -->
-        <test-method status="PASS" signature="supportTransitionPoint()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="supportTransitionPoint" duration-ms="7" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="supportTransitionPoint()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="supportTransitionPoint" duration-ms="16" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- supportTransitionPoint -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@4cdbe50f]" name="init" is-config="true" duration-ms="0" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
+        <test-method status="PASS" signature="constructionTest()[pri:0, instance:ratajczak.test.DirectionEdgeTest@20deea7f]" name="constructionTest" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- constructionTest -->
       </class> <!-- ratajczak.test.DirectionEdgeTest -->
-    </test> <!-- Message Arrow Test -->
-    <test name="Object test " duration-ms="490" started-at="2015-12-27T11:43:46Z" finished-at="2015-12-27T11:43:47Z">
       <class name="ratajczak.test.ObjectNodeTest">
-        <test-method status="PASS" signature="ClearBoundsTest()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="ClearBoundsTest" duration-ms="159" started-at="2015-12-27T12:43:46Z" description="Sprawdzenie poprawnych wymiarów 100x60" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="ClearBoundsTest()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="ClearBoundsTest" duration-ms="47" started-at="2016-01-06T13:51:26Z" description="Sprawdzenie poprawnych wymiarów 100x60" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClearBoundsTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="init" is-config="true" duration-ms="0" started-at="2015-12-27T12:43:46Z" finished-at="2015-12-27T12:43:46Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="init" is-config="true" duration-ms="1" started-at="2015-12-27T12:43:47Z" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="CreateTest()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="CreateTest" duration-ms="1" started-at="2015-12-27T12:43:47Z" description="Nazwa powinna być pusta" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="CreateTest()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="CreateTest" duration-ms="15" started-at="2016-01-06T13:51:26Z" description="Nazwa powinna być pusta" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateTest -->
-        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="boundsWithSomeText" duration-ms="28" started-at="2015-12-27T12:43:47Z" data-provider="BoundsText" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="boundsWithSomeText" duration-ms="0" started-at="2016-01-06T13:51:26Z" data-provider="BoundsText" finished-at="2016-01-06T13:51:26Z">
           <params>
             <param index="0">
               <value>
@@ -384,15 +202,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- boundsWithSomeText -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="init" is-config="true" duration-ms="0" started-at="2015-12-27T12:43:47Z" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="init" is-config="true" duration-ms="0" started-at="2015-12-27T12:43:47Z" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="boundsWithSomeText" duration-ms="5" started-at="2015-12-27T12:43:47Z" data-provider="BoundsText" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="boundsWithSomeText" duration-ms="0" started-at="2016-01-06T13:51:26Z" data-provider="BoundsText" finished-at="2016-01-06T13:51:26Z">
           <params>
             <param index="0">
               <value>
@@ -403,11 +221,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- boundsWithSomeText -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="init" is-config="true" duration-ms="1" started-at="2015-12-27T12:43:47Z" finished-at="2015-12-27T12:43:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="boundsWithSomeText" duration-ms="3" started-at="2015-12-27T12:43:47Z" data-provider="BoundsText" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="boundsWithSomeText" duration-ms="16" started-at="2016-01-06T13:51:26Z" data-provider="BoundsText" finished-at="2016-01-06T13:51:26Z">
           <params>
             <param index="0">
               <value>
@@ -418,7 +232,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- boundsWithSomeText -->
-        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="boundsWithSomeText" duration-ms="63" started-at="2015-12-27T12:43:47Z" data-provider="BoundsText" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="boundsWithSomeText" duration-ms="0" started-at="2016-01-06T13:51:26Z" data-provider="BoundsText" finished-at="2016-01-06T13:51:26Z">
           <params>
             <param index="0">
               <value>
@@ -429,15 +247,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- boundsWithSomeText -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="init" is-config="true" duration-ms="0" started-at="2015-12-27T12:43:47Z" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="init" is-config="true" duration-ms="0" started-at="2015-12-27T12:43:47Z" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="checkNameParameterTest()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="checkNameParameterTest" duration-ms="0" started-at="2016-01-06T13:51:26Z" description="Tekst powinien być wycentorowany i duży" finished-at="2016-01-06T13:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNameParameterTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="boundsWithSomeText" duration-ms="6" started-at="2015-12-27T12:43:47Z" data-provider="BoundsText" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="boundsWithSomeText(java.lang.String)[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="boundsWithSomeText" duration-ms="0" started-at="2016-01-06T13:51:26Z" data-provider="BoundsText" finished-at="2016-01-06T13:51:26Z">
           <params>
             <param index="0">
               <value>
@@ -448,27 +274,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- boundsWithSomeText -->
-        <test-method status="PASS" signature="checkNameParameterTest()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="checkNameParameterTest" duration-ms="2" started-at="2015-12-27T12:43:47Z" description="Tekst powinien być wycentorowany i duży" finished-at="2015-12-27T12:43:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkNameParameterTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="init" is-config="true" duration-ms="0" started-at="2015-12-27T12:43:47Z" finished-at="2015-12-27T12:43:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="init" is-config="true" duration-ms="1" started-at="2015-12-27T12:43:47Z" finished-at="2015-12-27T12:43:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="cloneTest()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="cloneTest" duration-ms="7" started-at="2015-12-27T12:43:47Z" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="cloneTest()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="cloneTest" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cloneTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="init" is-config="true" duration-ms="2" started-at="2015-12-27T12:43:47Z" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="scholdByNullPointExceptionOngetBounds()[pri:0, instance:ratajczak.test.ObjectNodeTest@7d417077]" name="scholdByNullPointExceptionOngetBounds" duration-ms="1" started-at="2015-12-27T12:43:47Z" finished-at="2015-12-27T12:43:47Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="scholdByNullPointExceptionOngetBounds()[pri:0, instance:ratajczak.test.ObjectNodeTest@1dde4cb2]" name="scholdByNullPointExceptionOngetBounds" duration-ms="0" started-at="2016-01-06T13:51:26Z" finished-at="2016-01-06T13:51:26Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -510,6 +328,182 @@
           </reporter-output>
         </test-method> <!-- scholdByNullPointExceptionOngetBounds -->
       </class> <!-- ratajczak.test.ObjectNodeTest -->
-    </test> <!-- Object test  -->
-  </suite> <!-- Suite1 -->
+      <class name="ratajczak.test.DiagramGraphTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DiagramGraphTest@2c767a52]" name="init" is-config="true" duration-ms="625" started-at="2016-01-06T13:51:25Z" finished-at="2016-01-06T13:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="edgesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@2c767a52]" name="edgesPrototypeTest" duration-ms="16" started-at="2016-01-06T13:51:25Z" description="Powinna wystąpic strzałka o nazwie Message w prototypach" data-provider="EdgesToolTipTest" finished-at="2016-01-06T13:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Depends on]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgesPrototypeTest -->
+        <test-method status="PASS" signature="edgesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@2c767a52]" name="edgesPrototypeTest" duration-ms="0" started-at="2016-01-06T13:51:25Z" description="Powinna wystąpic strzałka o nazwie Message w prototypach" data-provider="EdgesToolTipTest" finished-at="2016-01-06T13:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Is associated with]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgesPrototypeTest -->
+        <test-method status="PASS" signature="edgesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@2c767a52]" name="edgesPrototypeTest" duration-ms="0" started-at="2016-01-06T13:51:25Z" description="Powinna wystąpic strzałka o nazwie Message w prototypach" data-provider="EdgesToolTipTest" finished-at="2016-01-06T13:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Message]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgesPrototypeTest -->
+        <test-method status="PASS" signature="edgesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@2c767a52]" name="edgesPrototypeTest" duration-ms="0" started-at="2016-01-06T13:51:25Z" description="Powinna wystąpic strzałka o nazwie Message w prototypach" data-provider="EdgesToolTipTest" finished-at="2016-01-06T13:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<<Use>>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgesPrototypeTest -->
+        <test-method status="PASS" signature="edgesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@2c767a52]" name="edgesPrototypeTest" duration-ms="0" started-at="2016-01-06T13:51:25Z" description="Powinna wystąpic strzałka o nazwie Message w prototypach" data-provider="EdgesToolTipTest" finished-at="2016-01-06T13:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Is composed of]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgesPrototypeTest -->
+        <test-method status="PASS" signature="nodesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@2c767a52]" name="nodesPrototypeTest" duration-ms="0" started-at="2016-01-06T13:51:25Z" description="W liście powinien znajdować się klasa obiekt" data-provider="NodesToolTipTest" finished-at="2016-01-06T13:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Class]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nodesPrototypeTest -->
+        <test-method status="PASS" signature="nodesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@2c767a52]" name="nodesPrototypeTest" duration-ms="0" started-at="2016-01-06T13:51:25Z" description="W liście powinien znajdować się klasa obiekt" data-provider="NodesToolTipTest" finished-at="2016-01-06T13:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Interface]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nodesPrototypeTest -->
+        <test-method status="PASS" signature="nodesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@2c767a52]" name="nodesPrototypeTest" duration-ms="0" started-at="2016-01-06T13:51:25Z" description="W liście powinien znajdować się klasa obiekt" data-provider="NodesToolTipTest" finished-at="2016-01-06T13:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Actor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nodesPrototypeTest -->
+        <test-method status="PASS" signature="nodesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@2c767a52]" name="nodesPrototypeTest" duration-ms="0" started-at="2016-01-06T13:51:25Z" description="W liście powinien znajdować się klasa obiekt" data-provider="NodesToolTipTest" finished-at="2016-01-06T13:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Object]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nodesPrototypeTest -->
+        <test-method status="PASS" signature="nodesPrototypeTest(java.lang.String, boolean)[pri:0, instance:ratajczak.test.DiagramGraphTest@2c767a52]" name="nodesPrototypeTest" duration-ms="0" started-at="2016-01-06T13:51:25Z" description="W liście powinien znajdować się klasa obiekt" data-provider="NodesToolTipTest" finished-at="2016-01-06T13:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Action]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nodesPrototypeTest -->
+      </class> <!-- ratajczak.test.DiagramGraphTest -->
+      <class name="ratajczak.test.DiagramPluginTest">
+        <test-method status="PASS" signature="DiagramPropertyTest()[pri:0, instance:ratajczak.test.DiagramPluginTest@5119fb47]" name="DiagramPropertyTest" duration-ms="0" started-at="2016-01-06T13:51:25Z" finished-at="2016-01-06T13:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DiagramPropertyTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ratajczak.test.DiagramPluginTest@5119fb47]" name="init" is-config="true" duration-ms="0" started-at="2016-01-06T13:51:25Z" finished-at="2016-01-06T13:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- ratajczak.test.DiagramPluginTest -->
+    </test> <!-- ratajczak.test -->
+  </suite> <!-- violetplugin-communicationdiagram by packages -->
 </testng-results>
