@@ -1,23 +1,20 @@
 package ratajczak.test;
 
-import java.awt.Point;
 import java.awt.geom.Line2D;
 import java.awt.geom.Point2D;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 
-import org.junit.Ignore;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.horstmann.violet.product.diagram.abstracts.edge.SegmentedLineEdge;
 import com.horstmann.violet.product.diagram.abstracts.property.ArrowHead;
 import com.horstmann.violet.product.diagram.abstracts.property.BentStyle;
 import com.horstmann.violet.product.diagram.abstracts.property.LineStyle;
+import com.horstmann.violet.product.diagram.abstracts.property.morphClass.ClassNodeMorph;
 import com.horstmann.violet.product.diagram.classes.edges.XLineEdge;
-import com.horstmann.violet.product.diagram.classes.nodes.ClassNode;
 
 import junit.framework.Assert;
 
@@ -98,8 +95,8 @@ public class XLineEdgeTest {
 	
 	@Test(description="Wymiary bloków ClassNode to 100x60. Wynik to skrajny punkt klasy startowej lub pocz¹tkowej")
 	public void getConnectionPointsBetween2Class(){
-		ClassNode c1 = new ClassNode();
-		ClassNode c2 = new ClassNode();
+		ClassNodeMorph c1 = new ClassNodeMorph();
+		ClassNodeMorph c2 = new ClassNodeMorph();
 		c1.setLocation(new Point2D.Double(0, 0)); //domyœlna d³ugoœæ 100 wysokoœæ 60 z klasy ClassNode 
 		c2.setLocation(new Point2D.Double(200,0));
 		
@@ -120,14 +117,14 @@ public class XLineEdgeTest {
 	public void privateMethodReturnedPointsTest(){
 		Class classToTest = XLineEdge.class;
 		try {
-			Method privateMethod = classToTest.getMethod("getPointsForNodesOnDifferentLifeLines", new Class[]{ClassNode.class, ClassNode.class});
+			Method privateMethod = classToTest.getMethod("getPointsForNodesOnDifferentLifeLines", new Class[]{ClassNodeMorph.class, ClassNodeMorph.class});
 			privateMethod.setAccessible(true);
 			
 			ArrayList<Point2D> list = new ArrayList<Point2D>();
 			
-			ClassNode c1 = new ClassNode();
+			ClassNodeMorph c1 = new ClassNodeMorph();
 			c1.setLocation(new Point2D.Double(10,0));
-			ClassNode c2 = new ClassNode();
+			ClassNodeMorph c2 = new ClassNodeMorph();
 			c2.setLocation(new Point2D.Double(0,20));
 			
 			list.add(c1.getLocation());

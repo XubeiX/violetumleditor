@@ -1,5 +1,6 @@
 package com.horstmann.violet.product.diagram.abstracts.property;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 import com.horstmann.violet.framework.util.SerializableEnumeration;
@@ -47,12 +48,29 @@ public class Morph extends SerializableEnumeration {
 		}
 
 		redrawNodes(node, morph);
+		copyChildrenAndParent(node, morph);
 
 		ArrayList<IEdge> allEdgesAfterChange = new ArrayList<IEdge>(graph.getAllEdges());
 		redrawEdges(allEdges, allEdgesAfterChange, node, morph);
 
 	}
 
+	private void copyChildrenAndParent(INode node, INode morph){
+		ArrayList<INode> children = new ArrayList<INode>(node.getChildren());
+		
+		if(node.getParent()!=null){
+			morph.setParent(node.getParent());
+			node.getParent().addChild(morph, node.getParent().getChildren().size());
+		}
+		
+	
+		
+		
+		for (INode iNode : children) {
+			morph.addChild(iNode, children.size());
+		}
+	}
+	
 	private INode abstractToClass(INode node) {
 		ClassNodeMorph cla = new ClassNodeMorph();
 

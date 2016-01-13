@@ -12,6 +12,9 @@ import com.horstmann.violet.product.diagram.abstracts.property.ArrowHead;
 import com.horstmann.violet.product.diagram.abstracts.property.BentStyle;
 import com.horstmann.violet.product.diagram.abstracts.property.LineStyle;
 import com.horstmann.violet.product.diagram.abstracts.property.Morph;
+import com.horstmann.violet.product.diagram.abstracts.property.morphClass.AbstractNodeMorph;
+import com.horstmann.violet.product.diagram.abstracts.property.morphClass.ClassNodeMorph;
+import com.horstmann.violet.product.diagram.abstracts.property.morphClass.InterfaceNodeMorph;
 import com.horstmann.violet.product.diagram.classes.edges.AggregationEdge;
 import com.horstmann.violet.product.diagram.classes.edges.AssociationEdge;
 import com.horstmann.violet.product.diagram.classes.edges.CompositionEdge;
@@ -21,8 +24,6 @@ import com.horstmann.violet.product.diagram.classes.edges.InterfaceInheritanceEd
 import com.horstmann.violet.product.diagram.classes.edges.RelationShipEdge;
 import com.horstmann.violet.product.diagram.classes.edges.XLineEdge;
 import com.horstmann.violet.product.diagram.classes.nodes.BallNode;
-import com.horstmann.violet.product.diagram.classes.nodes.ClassNode;
-import com.horstmann.violet.product.diagram.classes.nodes.InterfaceNode;
 import com.horstmann.violet.product.diagram.classes.nodes.PackageNode;
 import com.horstmann.violet.product.diagram.classes.nodes.SocketNode;
 import com.horstmann.violet.product.diagram.common.NoteEdge;
@@ -56,11 +57,11 @@ public class ClassDiagramGraph extends AbstractGraph
     {
         ResourceBundle rs = ResourceBundle.getBundle(ClassDiagramConstant.CLASS_DIAGRAM_STRINGS, Locale.getDefault());
 
-        ClassNode node0 = new ClassNode();
+        ClassNodeMorph node0 = new ClassNodeMorph();
         node0.setToolTip(rs.getString("node0.tooltip"));
         NODE_PROTOTYPES.add(node0);
 
-        InterfaceNode node1 = new InterfaceNode();
+        InterfaceNodeMorph node1 = new InterfaceNodeMorph();
         node1.setToolTip(rs.getString("node1.tooltip"));
         NODE_PROTOTYPES.add(node1);
 
@@ -83,6 +84,10 @@ public class ClassDiagramGraph extends AbstractGraph
         SocketNode node6 = new SocketNode();
         node6.setToolTip(rs.getString("node6.tooltip"));
         NODE_PROTOTYPES.add(node6);
+        
+        AbstractNodeMorph node7 = new AbstractNodeMorph();
+        node7.setToolTip(rs.getString("node7.tooltip"));
+        NODE_PROTOTYPES.add(node7);
         
         DependencyEdge dependency = new DependencyEdge();
         dependency.setToolTip(rs.getString("edge0.tooltip"));

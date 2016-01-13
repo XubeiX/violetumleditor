@@ -23,7 +23,7 @@ public class AbstractNodeMorphTest {
 	
 	@Test
 	public void constructionTest(){
-		Assert.assertEquals(node.getName().getText(), "");
+		Assert.assertEquals(node.getName().getText(), "«abstract»");
 		Assert.assertEquals(node.getMethods().getText(), "");
 		Assert.assertEquals(node.getAttributes().getText(), "");
 	}

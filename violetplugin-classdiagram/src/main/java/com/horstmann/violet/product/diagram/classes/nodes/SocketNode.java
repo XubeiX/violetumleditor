@@ -14,16 +14,14 @@ import com.horstmann.violet.product.diagram.abstracts.node.EllipticalNode;
 
 public class SocketNode extends EllipticalNode {
 
-	
-	public SocketNode(){
+	public SocketNode() {
 		Name = "";
 	}
-	
-	
+
 	@Override
 	public Rectangle2D getBounds() {
 
-		Point2D currentLocation = getLocation();
+		Point2D currentLocation = getLocationOnGraph();
 		double x = currentLocation.getX();
 		double y = currentLocation.getY();
 		double w = RADIUS;
@@ -32,30 +30,34 @@ public class SocketNode extends EllipticalNode {
 		Rectangle2D snappedBounds = getGraph().getGridSticker().snap(currentBounds);
 		return snappedBounds;
 	}
-	
-	public void draw(Graphics2D g2) {
-		super.draw(g2);
-		int extent = 180;
 
+	private int convertFirstArrowDirectionToExtent() {
 		ArrayList<IEdge> iEdges = new ArrayList<IEdge>(getConnectedEdges());
 		for (IEdge iEdge : iEdges) {
-			if(iEdge.getDirection(this)==Direction.WEST){
-				extent = -extent;
-				break;
-				}
+			Direction direction = iEdge.getDirection(this);
+			if (direction == Direction.WEST) {
+				return -180;
+			}
 		}
-		
+		return 180;
+	}
+
+	public void draw(Graphics2D g2) {
+		super.draw(g2);
+		int extent = convertFirstArrowDirectionToExtent();
+
 		Rectangle2D bounds = getBounds();
-		Arc2D.Double socket = new Arc2D.Double(bounds.getX(), bounds.getY(), bounds.getWidth(),  bounds.getHeight(), 90, extent, Arc2D.OPEN);
+		Arc2D.Double socket = new Arc2D.Double(bounds.getX(), bounds.getY(), bounds.getWidth(), bounds.getHeight(), 90,
+				extent, Arc2D.OPEN);
 		g2.draw(socket);
 
-		int strLen = (int) g2.getFontMetrics().getStringBounds(Name, g2).getWidth();
-		int start = (int) (bounds.getWidth() / 2 - strLen / 2);
+		int nameStringLenth = (int) g2.getFontMetrics().getStringBounds(Name, g2).getWidth();
+		int centerPostionOfStringName = (int) (bounds.getWidth() / 2 - nameStringLenth / 2);
 
-		g2.drawString(Name, (int) (start + bounds.getX()), (int) bounds.getY() - RADIUS / 2);
-		
+		g2.drawString(Name, (int) (centerPostionOfStringName + bounds.getX()), (int) bounds.getY() - RADIUS / 2);
+
 	}
-	
+
 	@Override
 	public SocketNode clone() {
 		SocketNode socket = (SocketNode) super.clone();
@@ -63,16 +65,16 @@ public class SocketNode extends EllipticalNode {
 		return socket;
 
 	}
-	
-	public String getName(){
+
+	public String getName() {
 		return Name;
 	}
-	
-	public void setName(String Name){
+
+	public void setName(String Name) {
 		this.Name = Name;
 	}
-	
-	private int RADIUS = 20;
+
+	private final int RADIUS = 20;
 	private String Name;
 	
 }

@@ -19,6 +19,7 @@ public class AbstractNodeMorph extends RectangularNode{
     {
         name = new MultiLineString();
         name.setSize(MultiLineString.LARGE);
+        name.setText("\u00ABabstract\u00BB");
         attributes = new MultiLineString();
         attributes.setJustification(MultiLineString.LEFT);
         methods = new MultiLineString();

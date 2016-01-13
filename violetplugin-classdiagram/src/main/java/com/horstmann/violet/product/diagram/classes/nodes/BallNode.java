@@ -21,7 +21,7 @@ public class BallNode extends EllipticalNode {
 	@Override
 	public Rectangle2D getBounds() {
 
-		Point2D currentLocation = getLocation();
+		Point2D currentLocation = getLocationOnGraph();
 		double x = currentLocation.getX();
 		double y = currentLocation.getY();
 		double w = RADIUS;
@@ -30,6 +30,8 @@ public class BallNode extends EllipticalNode {
 		Rectangle2D snappedBounds = getGraph().getGridSticker().snap(currentBounds);
 		return snappedBounds;
 	}
+
+	
 
 	@Override
 	public void draw(Graphics2D g2) {
@@ -45,10 +47,10 @@ public class BallNode extends EllipticalNode {
 		g2.setColor(old);
 		g2.draw(circle);
 
-		int strLen = (int) g2.getFontMetrics().getStringBounds(Name, g2).getWidth();
-		int start = (int) (bounds.getWidth() / 2 - strLen / 2);
+		int nameStringLenth = (int) g2.getFontMetrics().getStringBounds(Name, g2).getWidth();
+		int centerPostionOfStringName = (int) (bounds.getWidth() / 2 - nameStringLenth / 2);
 
-		g2.drawString(Name, (int) (start + bounds.getX()), (int) bounds.getY() - RADIUS / 2);
+		g2.drawString(Name, (int) (centerPostionOfStringName + bounds.getX()), (int) bounds.getY() - RADIUS / 2);
 		
 	}
 

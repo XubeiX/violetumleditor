@@ -13,6 +13,9 @@ import com.horstmann.violet.product.diagram.abstracts.node.INode;
 import com.horstmann.violet.product.diagram.abstracts.node.IResizableNode;
 import com.horstmann.violet.product.diagram.abstracts.node.RectangularNode;
 import com.horstmann.violet.product.diagram.abstracts.property.MultiLineString;
+import com.horstmann.violet.product.diagram.abstracts.property.morphClass.AbstractNodeMorph;
+import com.horstmann.violet.product.diagram.abstracts.property.morphClass.ClassNodeMorph;
+import com.horstmann.violet.product.diagram.abstracts.property.morphClass.InterfaceNodeMorph;
 
 /**
  * A package node in a UML diagram.
@@ -176,7 +179,7 @@ public class PackageNode extends RectangularNode implements IResizableNode
     @Override
     public boolean addChild(INode n, Point2D p)
     {
-        if (n instanceof ClassNode || n instanceof InterfaceNode || n instanceof PackageNode)
+        if (n instanceof ClassNodeMorph || n instanceof InterfaceNodeMorph || n instanceof PackageNode || n instanceof AbstractNodeMorph)
         {
             n.setParent(this);
             n.setGraph(this.getGraph());
