@@ -64,6 +64,8 @@ public class MorphClassTest {
 		}
 	}
 	
+
+	
 	@Test(dataProvider="Class", dataProviderClass=DataProviders.class)
 	public void abstractToClass(SupportToCreateClass s){
 		AbstractNodeMorph abst = prepareDefaultAbstract(s);

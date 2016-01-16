@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="MorphClass(failed)">
+    <classes>
+      <class name="ratajczak.artur.ClassNodeMorphTest">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- ratajczak.artur.ClassNodeMorphTest -->
+      <class name="ratajczak.artur.InterfaceNodeMorphTest">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- ratajczak.artur.InterfaceNodeMorphTest -->
+      <class name="ratajczak.artur.MorphClassTest">
+        <methods>
+          <include name="init"/>
+          <include name="classToInterfaceTest" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+          <include name="abstractToINterface" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+          <include name="classToAbstract" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+          <include name="abstractToClass" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+          <include name="interfaceToClass" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+          <include name="interfaceToAbstract" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+        </methods>
+      </class> <!-- ratajczak.artur.MorphClassTest -->
+      <class name="ratajczak.artur.AbstractNodeMorphTest">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- ratajczak.artur.AbstractNodeMorphTest -->
+    </classes>
+  </test> <!-- MorphClass(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
