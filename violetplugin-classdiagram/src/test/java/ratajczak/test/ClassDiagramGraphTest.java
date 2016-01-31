@@ -20,7 +20,7 @@ public class ClassDiagramGraphTest {
 	
 	
 	@Test(dataProvider="ProtptypeTest", dataProviderClass = DataProviders.class)
-	public void ShoulbeClassInEdgeList(String equals, boolean expected){
+	public void SchoulBeClassInEdgeList(String equals, boolean expected){
 		Collection<IEdge> lista = graph.getEdgePrototypes();
 		boolean value = false;
 		

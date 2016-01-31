@@ -27,7 +27,7 @@ public class XLineEdgeBeanInfoTest {
 
 	
 	@Test
-	public void propertDescriptorCheck(){
+	public void propertDescriptorCheckWithFalseInformation(){
 		try{
 		PropertyDescriptor[] falseDescriptor = new PropertyDescriptor[]{
 			new PropertyDescriptor("FalseXLine", XLineEdge.class)

@@ -20,7 +20,7 @@ public class RelationShipEgdeTest {
 	
 	
 	@Test(dataProvider="BentStyles", dataProviderClass=DataProviders.class)
-	public void testChangeBentStyles(BentStyle newValue, BentStyle expected){
+	public void ChangeBentStylesTests(BentStyle newValue, BentStyle expected){
 		line.setBentStyle(newValue);
 		Assert.assertEquals(expected, line.getBentStyle());
 	}

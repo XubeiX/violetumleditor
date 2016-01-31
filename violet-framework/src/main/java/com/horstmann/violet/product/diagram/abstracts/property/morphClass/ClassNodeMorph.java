@@ -12,21 +12,26 @@ import com.horstmann.violet.product.diagram.abstracts.property.MultiLineString;
 import com.horstmann.violet.product.diagram.common.PointNode;
 
 /**
- * A class node in a class diagram.
+ * This class represent a Class Object
+ * @author Artur
+ *
  */
 public class ClassNodeMorph extends MorphNode
 {
     /**
-     * Construct a class node with a default size
+     * Construct a class node with a default size, default name, morph type = class and drawer.
      */
     public ClassNodeMorph()
     {
        super();
        morph=Morph.TOCLASS;
+       drawer = ThreeTabDrawer.getInstance();
     }
  
     @Override
     public ClassNodeMorph clone() {
     	return (ClassNodeMorph) super.clone();
     }
+    
+    
 }

@@ -67,7 +67,7 @@ public class MorphClassTest {
 
 	
 	@Test(dataProvider="Class", dataProviderClass=DataProviders.class)
-	public void abstractToClass(SupportToCreateClass s){
+	public void abstractToClassChangeTest(SupportToCreateClass s){
 		AbstractNodeMorph abst = prepareDefaultAbstract(s);
 		graph.addNode(abst, abst.getLocation());
 		
@@ -88,7 +88,7 @@ public class MorphClassTest {
 	
 
 	@Test(dataProvider="Class", dataProviderClass=DataProviders.class)
-	public void abstractToINterface(SupportToCreateClass s){
+	public void abstractToINterfaceChangeTest(SupportToCreateClass s){
 		AbstractNodeMorph abst = prepareDefaultAbstract(s);
 		graph.addNode(abst, abst.getLocation());
 		InterfaceNodeMorph shouldBe = prepareDefaultInterface(s);
@@ -105,7 +105,7 @@ public class MorphClassTest {
 	
 
 	@Test(dataProvider="Class", dataProviderClass=DataProviders.class)
-	public void interfaceToAbstract(SupportToCreateClass support){
+	public void interfaceToAbstractChangeTest(SupportToCreateClass support){
 		InterfaceNodeMorph inter = prepareDefaultInterface(support);
 		graph.addNode(inter, inter.getLocation());
 		
@@ -126,7 +126,7 @@ public class MorphClassTest {
 
 
 	@Test(dataProvider="Class", dataProviderClass=DataProviders.class)
-	public void interfaceToClass(SupportToCreateClass support) {
+	public void interfaceToClassChangeTest(SupportToCreateClass support) {
 		InterfaceNodeMorph inter = prepareDefaultInterface(support);
 		graph.addNode(inter, inter.getLocation());
 
@@ -147,7 +147,7 @@ public class MorphClassTest {
 
 
 	@Test(dataProvider = "Class", dataProviderClass = DataProviders.class)
-	public void classToAbstract(SupportToCreateClass support) {
+	public void classToAbstractChangeTest(SupportToCreateClass support) {
 		ClassNodeMorph klasa = prepareDefaultClass(support);
 		graph.addNode(klasa, klasa.getLocation());
 
@@ -162,7 +162,7 @@ public class MorphClassTest {
 	}
 
 	@Test(dataProvider = "Class", dataProviderClass = DataProviders.class)
-	public void classToInterfaceTest(SupportToCreateClass support) {
+	public void classToInterfaceChangeTest(SupportToCreateClass support) {
 		ClassNodeMorph klasa = prepareDefaultClass(support);
 		graph.addNode(klasa, klasa.getLocation());
 

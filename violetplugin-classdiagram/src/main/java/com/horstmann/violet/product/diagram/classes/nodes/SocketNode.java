@@ -11,7 +11,11 @@ import java.util.ArrayList;
 import com.horstmann.violet.product.diagram.abstracts.Direction;
 import com.horstmann.violet.product.diagram.abstracts.edge.IEdge;
 import com.horstmann.violet.product.diagram.abstracts.node.EllipticalNode;
-
+/**
+ * This class represent a socket from ball and socket notation in UML.
+ * @author Artur Ratajczak
+ *
+ */
 public class SocketNode extends EllipticalNode {
 
 	public SocketNode() {
@@ -31,17 +35,9 @@ public class SocketNode extends EllipticalNode {
 		return snappedBounds;
 	}
 
-	private int convertFirstArrowDirectionToExtent() {
-		ArrayList<IEdge> iEdges = new ArrayList<IEdge>(getConnectedEdges());
-		for (IEdge iEdge : iEdges) {
-			Direction direction = iEdge.getDirection(this);
-			if (direction == Direction.WEST) {
-				return -180;
-			}
-		}
-		return 180;
-	}
 
+	
+	
 	public void draw(Graphics2D g2) {
 		super.draw(g2);
 		int extent = convertFirstArrowDirectionToExtent();
@@ -73,8 +69,24 @@ public class SocketNode extends EllipticalNode {
 	public void setName(String Name) {
 		this.Name = Name;
 	}
+	/**
+	 * This method convert first arrow direction attached to socket to int value for extent.
+	 * @return extent value
+	 */
+	private int convertFirstArrowDirectionToExtent() {
+		ArrayList<IEdge> iEdges = new ArrayList<IEdge>(getConnectedEdges());
+		for (IEdge iEdge : iEdges) {
+			Direction direction = iEdge.getDirection(this);
+			if (direction == Direction.WEST) {
+				return -180;
+			}
+		}
+		return 180;
+	}
+	
 
-	private final int RADIUS = 20;
+	private static int RADIUS = 20;
 	private String Name;
+	private static int MAXCONNECTION = 1;
 	
 }

@@ -11,10 +11,14 @@ import com.horstmann.violet.product.diagram.abstracts.node.RectangularNode;
 import com.horstmann.violet.product.diagram.abstracts.property.Morph;
 import com.horstmann.violet.product.diagram.abstracts.property.MultiLineString;
 import com.horstmann.violet.product.diagram.common.PointNode;
-
+/**
+ * This class represent all object with may be changed to other object.
+ * @author Artur
+ *
+ */
 public class MorphNode extends RectangularNode{
 	 /**
-     * Construct a class node with a default size
+     * Construct a morphNode with default parameters.
      */
     public MorphNode()
     {
@@ -97,41 +101,15 @@ public class MorphNode extends RectangularNode{
         return snappedBounds;
     }
 
+    /**
+     * Draw object to graph
+     */
     @Override
     public void draw(Graphics2D g2)
     {
-    	 // Backup current color;
-        Color oldColor = g2.getColor();
-        // Translate g2 if node has parent
-        Point2D nodeLocationOnGraph = getLocationOnGraph();
-        Point2D nodeLocation = getLocation();
-        Point2D g2Location = new Point2D.Double(nodeLocationOnGraph.getX() - nodeLocation.getX(), nodeLocationOnGraph.getY() - nodeLocation.getY());
-        g2.translate(g2Location.getX(), g2Location.getY());
-        // Perform drawing
         super.draw(g2);
-        Rectangle2D currentBounds = getBounds();
-        Rectangle2D topBounds = getTopRectangleBounds();
-        Rectangle2D midBounds = getMiddleRectangleBounds(); 
-        Rectangle2D bottomBounds = getBottomRectangleBounds();
-        if (topBounds.getWidth() < currentBounds.getWidth())
-        {
-        	// We need to re-center the topBounds - only do so if really required to avoid race conditions
-        	topBounds.setRect(topBounds.getX(), topBounds.getY(), currentBounds.getWidth(), topBounds.getHeight());
-        }
-        g2.setColor(getBackgroundColor());
-        g2.fill(currentBounds);
-        g2.setColor(getBorderColor());
-        g2.draw(currentBounds);
-        g2.drawLine((int) topBounds.getX(),(int) topBounds.getMaxY(),(int) currentBounds.getMaxX(),(int) topBounds.getMaxY());
-        g2.drawLine((int) bottomBounds.getX(),(int) bottomBounds.getY(),(int) currentBounds.getMaxX(),(int) bottomBounds.getY());
-        g2.setColor(getTextColor());
-        name.draw(g2, topBounds);
-        attributes.draw(g2, midBounds);
-        methods.draw(g2, bottomBounds);
-        // Restore g2 original location
-        g2.translate(-g2Location.getX(), -g2Location.getY());
-        // Restore first color
-        g2.setColor(oldColor);
+        drawer.draw(g2, this);
+        
     }
 
     /*
@@ -209,11 +187,7 @@ public class MorphNode extends RectangularNode{
         return methods;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
-     * @see com.horstmann.violet.product.diagram.abstracts.RectangularNode#clone()
-     */
+   
     public MorphNode clone()
     {
         MorphNode cloned = (MorphNode) super.clone();
@@ -225,11 +199,17 @@ public class MorphNode extends RectangularNode{
     }
     
     
-   
+   /**
+    * Gets the Morph property value
+    * @return the morph object type
+    */
     public Morph getMorph() {
 		return morph;
 	}
-
+    /**
+     * Sets the morph property value
+     * @param morph new morph type
+     */
 	public void setMorph(Morph morph) {
 		this.morph = morph;
 		morph.morph(this);
@@ -241,8 +221,9 @@ public class MorphNode extends RectangularNode{
     private MultiLineString attributes;
     private MultiLineString methods;
     protected Morph morph;
+    protected IDrawer drawer;
 
-	private static int DEFAULT_COMPARTMENT_HEIGHT = 20;
-    private static int DEFAULT_WIDTH = 100;
-    private static int DEFAULT_HEIGHT = 60;
+	protected static int DEFAULT_COMPARTMENT_HEIGHT = 20;
+    protected static int DEFAULT_WIDTH = 100;
+    protected static int DEFAULT_HEIGHT = 60;
 }

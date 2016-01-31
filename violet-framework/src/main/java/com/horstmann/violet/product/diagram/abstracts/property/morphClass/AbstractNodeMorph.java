@@ -10,16 +10,21 @@ import com.horstmann.violet.product.diagram.abstracts.node.RectangularNode;
 import com.horstmann.violet.product.diagram.abstracts.property.Morph;
 import com.horstmann.violet.product.diagram.abstracts.property.MultiLineString;
 import com.horstmann.violet.product.diagram.common.PointNode;
-
+/**
+ * This class represent Abstract object
+ * @author Artur
+ *
+ */
 public class AbstractNodeMorph extends MorphNode{
 	 /**
-     * Construct a class node with a default size
+     * Construct a class node with a default size, text <<abstract>>, morph type = abstract and drawer.
      */
     public AbstractNodeMorph()
     {
         super();
-        getName().setText("\u00ABabstract\u00BB");
+        getName().setText("<<abstract>>\n");
         morph=Morph.ABSTRACT;
+        drawer = ThreeTabDrawer.getInstance();
     }
     	
     @Override

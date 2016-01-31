@@ -23,7 +23,7 @@ public class AbstractNodeMorphTest {
 	
 	@Test
 	public void constructionTest(){
-		Assert.assertEquals(node.getName().getText(), "«abstract»");
+		Assert.assertEquals(node.getName().getText(), "<<abstract>>\n");
 		Assert.assertEquals(node.getMethods().getText(), "");
 		Assert.assertEquals(node.getAttributes().getText(), "");
 	}
@@ -60,7 +60,7 @@ public class AbstractNodeMorphTest {
 	}
 	
 	@Test(dataProvider="BoundsText", dataProviderClass=DataProviders.class)
-	public void boundsWithSomeText(String newValue){
+	public void boundsWithSomeTextTest(String newValue){
 		Rectangle2D expected = new Rectangle(0,0,100,60);
 		MultiLineString someText = new MultiLineString();
 		someText.setText(newValue);

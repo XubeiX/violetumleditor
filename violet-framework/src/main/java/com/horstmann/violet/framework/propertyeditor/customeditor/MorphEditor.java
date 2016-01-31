@@ -2,7 +2,11 @@ package com.horstmann.violet.framework.propertyeditor.customeditor;
 
 import com.horstmann.violet.framework.propertyeditor.CustomPropertyEditorSupport;
 import com.horstmann.violet.product.diagram.abstracts.property.Morph;
-
+/**
+ *  A property editor for the Morph type.
+ * @author Artur
+ *
+ */
 public class MorphEditor extends CustomPropertyEditorSupport{
 
 	

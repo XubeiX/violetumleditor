@@ -38,7 +38,7 @@ public class DirectionEdgeTest {
 	}
 	
 	@Test
-	public void supportTransitionPoint(){
+	public void supportTransitionPointTest(){
 		
 		edge.setTransitionPoints(new Point2D[]{
 				new Point2D.Double(0,0)

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Suite1">
+<suite name="Test Communication Diagram">
 
-	<test name="Communication Diagram Graph">
+	<test name="Communication Diagram Graph Test">
 		<classes>
 			<class name="ratajczak.test.DiagramGraphTest" />
 		</classes>
 	</test>
 
-	<test name="Communication Diagram Plugin">
+	<test name="Communication Diagram Plugin Test">
 		<classes>
 			<class name="ratajczak.test.DiagramPluginTest" />
 		</classes>

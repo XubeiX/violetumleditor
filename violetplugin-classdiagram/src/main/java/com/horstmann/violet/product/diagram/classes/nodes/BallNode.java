@@ -11,13 +11,18 @@ import com.horstmann.violet.product.diagram.abstracts.Direction;
 import com.horstmann.violet.product.diagram.abstracts.edge.IEdge;
 import com.horstmann.violet.product.diagram.abstracts.node.EllipticalNode;
 import com.horstmann.violet.product.diagram.abstracts.node.INode;
-
+/**
+ * This class represent a ball node from ball and socket notation in UML
+ * @author Artur Ratajczak
+ * 
+ */
 public class BallNode extends EllipticalNode {
 
 	public BallNode() {
 		Name = "";
 	}
 
+	
 	@Override
 	public Rectangle2D getBounds() {
 

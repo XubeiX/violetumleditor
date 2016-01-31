@@ -22,7 +22,7 @@ public class BallAndSocketTest {
 	}
 
 	@Test
-	public void copyBall() {
+	public void copyBallTest() {
 		ball.setName("Compied");
 		ball.setLocation(new Point2D.Double(10, 10));
 
@@ -33,7 +33,7 @@ public class BallAndSocketTest {
 	}
 
 	@Test
-	public void copySocket() {
+	public void copySocketTest() {
 		socket.setLocation(new Point2D.Double(50, 35));
 		socket.setBackgroundColor(Color.RED);
 		socket.setName("socket");

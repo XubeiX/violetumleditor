@@ -141,6 +141,7 @@ public class ArrowHead extends SerializableEnumeration {
 	/** Array head type : this head is black filled diamond */
 	public static final ArrowHead BLACK_DIAMOND = new ArrowHead();
 
+	/** Array head type : this head is an X shape*/
 	public static final ArrowHead X_HEAD = new ArrowHead();
 
 	/** Internal Java UID */

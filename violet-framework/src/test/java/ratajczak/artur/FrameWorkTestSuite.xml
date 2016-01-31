@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Suite1">
+<suite name="Framework tests">
 
-	<test name="AbstractNodeMorphTest">
+	<test name="AbstractNodeMorph Tests">
 		<classes>
 			<class name="ratajczak.artur.AbstractNodeMorphTest" />
 		</classes>
 	</test>
 
-	<test name="ClassNodeMorph">
+	<test name="ClassNodeMorph Tests">
 		<classes>
 			<class name="ratajczak.artur.ClassNodeMorphTest" />
 		</classes>
 	</test>
 
-	<test name="InterfaceNodeMorpg">
+	<test name="InterfaceNodeMorpg Tests" >
 		<classes>
 			<class name="ratajczak.artur.InterfaceNodeMorphTest" />
 		</classes>
 	</test>
-	<test name="MorphClass">
+	<test name="MorphClass Tests">
 		<classes>
 			<class name="ratajczak.artur.MorphClassTest" />
 		</classes>
 	</test>
-	<test name="MorphEditor">
+	<test name="MorphEditor Tests">
 		<classes>
 			<class name="ratajczak.artur.MorphEditorTest" />
 		</classes>

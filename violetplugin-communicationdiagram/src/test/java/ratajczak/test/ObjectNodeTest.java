@@ -45,14 +45,14 @@ public class ObjectNodeTest {
 	}
 	
 	@Test(description="Sprawdzenie poprawnych wymiarów 100x60")
-	public void ClearBoundsTest(){
+	public void checkBoundsSizeWithNOTextTest(){
 		Rectangle2D expected = new Rectangle(0, 0, 100, 60);
 		Rectangle2D actual = node.getBounds();
 		Assert.assertEquals(actual, expected);
 	}
 	
 	@Test(dataProvider="BoundsText", dataProviderClass=DataPrividers.class)
-	public void boundsWithSomeText(String newValue){
+	public void checkBoundsSizeWithSomeTextTest(String newValue){
 		Rectangle2D expected = new Rectangle(0,0,100,60);
 		MultiLineString someText = new MultiLineString();
 		someText.setText(newValue);
@@ -66,7 +66,7 @@ public class ObjectNodeTest {
 	}
 	
 	@Test(expectedExceptions=NullPointerException.class)
-	public void scholdByNullPointExceptionOngetBounds(){
+	public void schouldBeNullPointExceptionOnGetBounds(){
 		Rectangle2D expected = new Rectangle(0,0,100,60);
 		MultiLineString someText = new MultiLineString();
 		someText.setText(null);
